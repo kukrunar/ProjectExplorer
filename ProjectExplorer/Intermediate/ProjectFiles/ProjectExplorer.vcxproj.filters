@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjectExplorer.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5E0A19DD-5F1E-4D2E-A63C-7233CCAF5E5D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectExplorer.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjectExplorerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{FE0B2E48-0CC3-4D82-8764-CDC0E5E03C98}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjectExplorer">
+			<UniqueIdentifier>{806A01C4-AC87-49FB-9CBD-41888BB8247F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\ProjectExplorer\Door.cpp">
+			<Filter>Source\ProjectExplorer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectExplorer\Door.h">
+			<Filter>Source\ProjectExplorer</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\ProjectExplorer\ProjectExplorer.Build.cs">
+			<Filter>Source\ProjectExplorer</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjectExplorer\ProjectExplorer.cpp">
+			<Filter>Source\ProjectExplorer</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectExplorer\ProjectExplorer.h">
+			<Filter>Source\ProjectExplorer</Filter>
+		</ClInclude >
+		<Filter Include="Source\ProjectExplorer\Resources">
+			<UniqueIdentifier>{7FA596A8-39B1-4D6F-8141-EDD9FEE7FCF4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\ProjectExplorer\Resources\Windows">
+			<UniqueIdentifier>{F39EB340-28C2-46D3-AC93-D41D2DE439DE}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\ProjectExplorer\Resources\Windows\ProjectExplorer.rc">
+			<Filter>Source\ProjectExplorer\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
