@@ -1,0 +1,256 @@
+﻿Log file open, 02/12/15 11:21:00
+LogInit:Display: Running engine for game: ProjectExplorer
+LogModuleManager:Warning: Found module file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Binaries/Win64/UE4Editor-ProjectExplorer.dll (API version -1), but it was incompatible with the current engine API version (2369412). This is likely a stale module that must be recompiled.
+LogInit:Warning: Incompatible or missing module: UE4Editor-ProjectExplorer.dll
+Running C:/Program Files/Epic Games/4.6/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectExplorer Development Win64 -project="C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/ProjectExplorer.uproject" -rocket -editorrecompile -progress
+Parsing headers for ProjectExplorerEditor
+Reflection code generated for ProjectExplorerEditor
+Performing 1 actions (4 in parallel)
+[1/1] Link UE4Editor-ProjectExplorer.dll
+   Creating library C:\Users\Christoffer\Documents\ProjectExplorer\ProjectExplorer\Intermediate\Build\Win64\ProjectExplorerEditor\Development\UE4Editor-ProjectExplorer.lib and object C:\Users\Christoffer\Documents\ProjectExplorer\ProjectExplorer\Intermediate\Build\Win64\ProjectExplorerEditor\Development\UE4Editor-ProjectExplorer.exp
+-------- End Detailed Actions Stats -----------------------------------------------------------
+Cumulative action seconds (4 processors): 0,00 building projects, 0,00 compiling, 0,00 creating app bundles, 0,00 generating debug info, 2,43 linking, 0,00 other
+UBT execution time: 36,54 seconds
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.12-10.22.37:688][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.12-10.22.37:859][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.12-10.22.38:235][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.12-10.22.38:539][  0]LogInit: Object subsystem initialized
+[2015.02.12-10.22.38:660][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.12-10.22.38:660][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.12-10.22.38:660][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.12-10.22.38:660][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.12-10.22.38:694][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.12-10.22.38:701][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.12-10.22.38:708][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.12-10.22.38:833][  0]LogInit: Computer: KUKRUNAR
+[2015.02.12-10.22.38:833][  0]LogInit: User: Christoffer
+[2015.02.12-10.22.38:833][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.12-10.22.38:833][  0]LogInit: High frequency timer resolution =3.222681 MHz
+[2015.02.12-10.22.38:846][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.02.12-10.22.38:855][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.12-10.22.38:855][  0]LogMemory: Process Physical Memory: 50.85 MB used, 50.85 MB peak
+[2015.02.12-10.22.38:855][  0]LogMemory: Process Virtual Memory: 24.41 MB used, 24.41 MB peak
+[2015.02.12-10.22.38:855][  0]LogMemory: Physical Memory: 3310.59 MB used, 8168.95 MB total
+[2015.02.12-10.22.38:855][  0]LogMemory: Virtual Memory: 285.96 MB used, 134217728.00 MB total
+[2015.02.12-10.22.39:307][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.02.12-10.22.39:307][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4084MB of shared system memory, 1 output[s]
+[2015.02.12-10.22.39:308][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.12-10.22.39:308][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.12-10.22.39:308][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.12-10.22.39:333][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.12-10.22.39:343][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.12-10.22.41:312][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.12-10.22.41:608][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.12-10.22.50:721][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.12-10.22.51:630][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.12-10.22.51:812][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.12-10.22.52:714][  0]LogDerivedDataCache: Loaded boot cache 0.90s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.12-10.22.52:714][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.12-10.22.52:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.12-10.22.52:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.12-10.22.52:805][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.12-10.22.52:839][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christoffer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.12-10.23.00:094][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.12-10.23.01:932][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.12-10.23.01:932][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.12-10.23.06:717][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.12-10.23.07:152][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.12-10.23.33:742][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.12-10.23.36:022][  0]SourceControl: Info Source control is disabled
+[2015.02.12-10.23.36:022][  0]SourceControl: Info Source control is disabled
+[2015.02.12-10.23.36:027][  0]SourceControl: Info Source control is disabled
+[2015.02.12-10.23.36:838][  0]LogObj: 23762 objects as part of root set at end of initial load.
+[2015.02.12-10.23.36:838][  0]LogUObjectAllocator: 5176184 out of 0 bytes used by permanent object pool.
+[2015.02.12-10.23.37:478][  0]LogEngine: Initializing Engine...
+[2015.02.12-10.23.38:316][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.12-10.23.38:474][  0]LogInit: FAudioDevice initialized.
+[2015.02.12-10.23.39:055][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.12-10.23.39:174][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.12-10.23.39:179][  0]LogInit: Texture streaming: Enabled
+[2015.02.12-10.23.39:334][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.12-10.23.39:334][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.12-10.23.39:334][  0]LogAnalytics: SetUserId e46223e1b84009ca22d653c003e667e2
+[2015.02.12-10.23.39:334][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.12-10.23.40:098][  0]LogInit: Transaction tracking system initialized
+[2015.02.12-10.23.40:937][  0]BlueprintLog: New page: Editor Load
+[2015.02.12-10.23.41:117][  0]LogAssetRegistry: FAssetRegistry took 0.0516 seconds to start up
+[2015.02.12-10.23.41:118][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.12-10.23.43:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.12-10.23.44:299][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.12-10.23.46:948][  0]LogConsoleResponse:Display: 
+[2015.02.12-10.23.48:010][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.12-10.23.49:866][  0]SourceControl: Info Source control is disabled
+[2015.02.12-10.23.49:914][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.12-10.23.49:915][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap'
+[2015.02.12-10.23.49:928][  0]Cmd: MAP CHECKDEP
+[2015.02.12-10.23.49:948][  0]MapCheck: New page: Untitled_0 - Feb 12, 2015, 12:23:49 PM
+[2015.02.12-10.23.50:053][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.226ms to complete.
+[2015.02.12-10.23.50:053][  0]LogFileHelpers: Loading map 'Example_Map' took 0.163
+[2015.02.12-10.23.51:609][  0]LogCollectionManager: Loaded 0 collections in 0.000940 seconds
+[2015.02.12-10.23.52:725][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.12-10.23.53:150][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.12-10.23.53:346][  0]LogLoad: Full Startup: 175.04 seconds (BP compile: 0.28 seconds)
+[2015.02.12-10.23.53:418][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/InteriorDoor'
+[2015.02.12-10.23.55:499][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x904.
+[2015.02.12-10.23.56:310][  2]LogAssetRegistry: Asset discovery search completed in 15.2441 seconds
+[2015.02.12-10.24.33:059][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.02.12-10.24.33:654][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.12-10.24.34:577][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.12-10.24.42:490][551]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.12-10.24.42:491][551]LightingResults: New page: Lighting Build
+[2015.02.12-10.24.42:642][551]LoadErrors: New page: Loading map: House.umap
+[2015.02.12-10.24.42:676][551]MapCheck: New page: Map Check
+[2015.02.12-10.24.42:676][551]LightingResults: New page: Lighting Build
+[2015.02.12-10.24.42:714][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004EE4C33E20
+[2015.02.12-10.24.42:928][551]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.12-10.24.42:928][551]LogAIModule: Creating AISystem for world House
+[2015.02.12-10.24.42:970][551]Cmd: MAP CHECKDEP
+[2015.02.12-10.24.42:970][551]MapCheck: New page: House - Feb 12, 2015, 12:24:42 PM
+[2015.02.12-10.24.43:050][551]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.715ms to complete.
+[2015.02.12-10.24.43:051][551]LogFileHelpers: Loading map 'House' took 0.566
+[2015.02.12-10.24.56:291][ 61]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.12-10.24.58:661][343]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.25.01:965][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.02.12-10.25.05:366][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.25.06:442][119]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Shapes'
+[2015.02.12-10.25.10:836][573]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.25.12:829][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.02.12-10.25.32:646][998]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.25.35:883][385]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/HDRI'
+[2015.02.12-10.25.38:788][720]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.25.40:381][910]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.02.12-10.25.58:463][976]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.26.11:580][548]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.02.12-10.26.15:436][988]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.12-10.26.21:748][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.02.12-10.26.26:920][277]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.02.12-10.26.27:391][330]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2015.02.12-10.26.27:763][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.26.28:128][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.26.38:259][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2015.02.12-10.26.38:266][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.26.39:181][342]Cmd: DELETE
+[2015.02.12-10.26.39:181][342]Cmd: ACTOR DELETE
+[2015.02.12-10.26.39:247][342]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.02.12-10.26.39:314][342]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2015.02.12-10.26.41:169][529]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2015.02.12-10.26.41:763][591]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2015.02.12-10.26.41:770][591]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.26.41:789][591]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.26.55:712][931]Cmd: DELETE
+[2015.02.12-10.26.55:712][931]Cmd: ACTOR DELETE
+[2015.02.12-10.26.55:713][931]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.02.12-10.26.55:720][931]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2015.02.12-10.27.10:797][649]LogActorFactory: Actor Factory created Wall_Window_400x400
+[2015.02.12-10.27.11:428][716]LogActorFactory: Actor Factory created Wall_Window_400x400
+[2015.02.12-10.27.11:435][716]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.27.11:455][716]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.12-10.27.14:199][960]Cmd: DELETE
+[2015.02.12-10.27.14:199][960]Cmd: ACTOR DELETE
+[2015.02.12-10.27.14:200][960]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.02.12-10.27.14:207][960]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2015.02.12-10.27.22:789][846]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.12-10.27.38:604][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.P_Ambient_Dust_17.ParticleSystemComponent0
+[2015.02.12-10.27.38:664][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
+[2015.02.12-10.27.38:664][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
+[2015.02.12-10.27.38:665][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
+[2015.02.12-10.27.38:665][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
+[2015.02.12-10.27.38:667][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Fire_C_1.P_Fire
+[2015.02.12-10.27.38:668][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Smoke.P_Smoke Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Smoke_C_1.P_Smoke
+[2015.02.12-10.27.38:669][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Sparks.P_Sparks Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Sparks_C_1.Sparks
+[2015.02.12-10.27.38:669][248]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit Component=/Game/StarterContent/StarterMap.StarterMap:PersistentLevel.Blueprint_Effect_Steam_C_1.P_Steam_Lit
+[2015.02.12-10.28.08:931][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_LightStudio_C_15' or package '/Engine/Transient'.
+[2015.02.12-10.28.08:931][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_24' or package '/Engine/Transient'.
+[2015.02.12-10.28.08:931][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_13' or package '/Engine/Transient'.
+[2015.02.12-10.28.08:931][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_LightStudio_C_14' or package '/Engine/Transient'.
+[2015.02.12-10.28.08:932][248]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 2 instances, 0 with static permutations.
+[2015.02.12-10.28.09:025][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2015.02.12-10.28.09:025][248]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_BP_LightStudio_C_14' or package '/Engine/Transient'.
+[2015.02.12-10.28.09:090][248]LogWindows:Error: Windows GetLastError: Åtgärden har slutförts. (0)
+[2015.02.12-10.28.09:301][248]LogCrashTracker: 
+
+
+[2015.02.12-10.28.17:844][248]LogCrashTracker: 
+
+
+[2015.02.12-10.28.17:844][248]LogWindows: === Critical error: ===
+Assertion failed: GetWorld() [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.6\Engine\Source\Runtime\Engine\Private\Actor.cpp] [Line: 3083] 
+
+
+
+KERNELBASE.dll!UnknownFunction (0x00007ffa7170606c) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa450b2f7d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa44f460f8) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa44f29192) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffa424b2f21) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffa424c350b) + 0 bytes [UnknownFile:0]
+UE4Editor-Engine.dll!UnknownFunction (0x00007ffa424bdeba) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa409106da) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa4090f1c4) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40675e2a) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40dbbd50) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40d06417) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40d08e09) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40da6d39) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41e44b9a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41e70a73) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41ca97bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41c67347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41d0b2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41cfc226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4501e9e9) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4500a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4501fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa45006cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffa71a62434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffa71a62297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4501ffd9) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41d24b9a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41cb43b0) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa40729c6e) + 0 bytes [UnknownFile:0]
+UE4Editor-UnrealEd.dll!UnknownFunction (0x00007ffa4090195e) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d61a40a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d62b942) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d4f4213) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d4fd799) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d624759) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d62025a) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d6f05e3) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d4f5807) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d4fd9a9) + 0 bytes [UnknownFile:0]
+UE4Editor-ContentBrowser.dll!UnknownFunction (0x00007ffa2d6284d9) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41e44b9a) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41e70a73) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41ca97bc) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41c67347) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41d0b2e0) + 0 bytes [UnknownFile:0]
+UE4Editor-Slate.dll!UnknownFunction (0x00007ffa41cfc226) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4501e9e9) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4500a1fb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa4501fbbb) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa45006cf2) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffa71a62434) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ffa71a62297) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!UnknownFunction (0x00007ffa45020076) + 0 bytes [UnknownFile:0]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff71708cbda) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launchengineloop.cpp:2193]
+UE4Editor.exe!GuardedMain() (0x00007ff71708089f) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\launch.cpp:131]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff71708090a) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff71708e3d9) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.6\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff71708f319) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ffa72ff16ad) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffa73ffeb64) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ffa73ffeb64) + 0 bytes [UnknownFile:0]
+
+
+[2015.02.12-10.28.17:972][248]LogExit: Executing StaticShutdownAfterError
+[2015.02.12-10.28.18:363][248]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.02.12-10.28.18:363][248]Log file closed, 02/12/15 11:28:18

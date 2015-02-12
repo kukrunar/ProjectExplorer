@@ -1,0 +1,24 @@
+﻿Log file open, 02/11/15 00:32:16
+LogInit:Display: Running engine for game: ProjectExplorer
+LogInit:Warning: Incompatible or missing module: UE4Editor-ProjectExplorer.dll
+Running C:/Program Files/Epic Games/4.6/Engine/Binaries/DotNET/UnrealBuildTool.exe ProjectExplorer Development Win64 -project="C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/ProjectExplorer.uproject" -rocket -editorrecompile -progress
+Parsing headers for ProjectExplorerEditor
+Reflection code generated for ProjectExplorerEditor
+ERROR: Visual Studio 2012 or Visual Studio 2013 must be installed in order to build this target.
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (14)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+LogModuleManager: Shutting down and abandoning module Landscape (11)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 02/11/15 00:32:32
