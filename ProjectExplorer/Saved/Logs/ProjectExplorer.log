@@ -1,4 +1,4 @@
-﻿Log file open, 02/22/15 23:14:16
+﻿Log file open, 02/23/15 17:46:40
 LogInit:Display: Running engine for game: ProjectExplorer
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -9,539 +9,782 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.02.22-22.14.16:249][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.02.22-22.14.16:300][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.02.22-22.14.16:509][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.02.22-22.14.16:658][  0]LogInit: Object subsystem initialized
-[2015.02.22-22.14.16:759][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.02.22-22.14.16:759][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.22-22.14.16:759][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.02.22-22.14.16:759][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.22-22.14.16:784][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.02.22-22.14.16:799][  0]LogInit: Selected Device Profile: [Windows]
-[2015.02.22-22.14.16:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.02.22-22.14.16:869][  0]LogInit: Computer: KUKRUNAR
-[2015.02.22-22.14.16:869][  0]LogInit: User: Christoffer
-[2015.02.22-22.14.16:869][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.02.22-22.14.16:869][  0]LogInit: High frequency timer resolution =3.222680 MHz
-[2015.02.22-22.14.16:890][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
-[2015.02.22-22.14.16:890][  0]LogMemory: Platform Memory Stats for Windows
-[2015.02.22-22.14.16:890][  0]LogMemory: Process Physical Memory: 48.31 MB used, 48.31 MB peak
-[2015.02.22-22.14.16:890][  0]LogMemory: Process Virtual Memory: 24.17 MB used, 26.52 MB peak
-[2015.02.22-22.14.16:890][  0]LogMemory: Physical Memory: 2852.67 MB used, 8168.95 MB total
-[2015.02.22-22.14.16:890][  0]LogMemory: Virtual Memory: 273.70 MB used, 134217728.00 MB total
-[2015.02.22-22.14.17:080][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
-[2015.02.22-22.14.17:080][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4084MB of shared system memory, 1 output[s]
-[2015.02.22-22.14.17:081][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.02.22-22.14.17:081][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.02.22-22.14.17:081][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.02.22-22.14.17:091][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.02.22-22.14.17:109][  0]LogD3D11RHI: Async texture creation enabled
-[2015.02.22-22.14.19:060][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.02.22-22.14.19:358][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.02.22-22.14.32:540][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.22-22.14.33:570][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.22-22.14.33:672][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.02.22-22.14.34:240][  0]LogDerivedDataCache: Loaded boot cache 0.54s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.22-22.14.34:240][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.02.22-22.14.34:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.02.22-22.14.34:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.02.22-22.14.34:432][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.02.22-22.14.34:459][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christoffer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.02.22-22.14.39:490][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.02.22-22.14.40:809][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.02.22-22.14.40:809][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.02.22-22.14.45:513][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.02.22-22.14.45:865][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.02.22-22.15.20:342][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.02.22-22.15.23:019][  0]SourceControl: Info Source control is disabled
-[2015.02.22-22.15.23:019][  0]SourceControl: Info Source control is disabled
-[2015.02.22-22.15.23:024][  0]SourceControl: Info Source control is disabled
-[2015.02.22-22.15.24:099][  0]LogObj: 23762 objects as part of root set at end of initial load.
-[2015.02.22-22.15.24:099][  0]LogUObjectAllocator: 5176184 out of 0 bytes used by permanent object pool.
-[2015.02.22-22.15.24:601][  0]LogEngine: Initializing Engine...
-[2015.02.22-22.15.25:410][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2015.02.22-22.15.25:415][  0]LogInit: FAudioDevice initialized.
-[2015.02.22-22.15.25:870][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.02.22-22.15.26:042][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.22-22.15.26:047][  0]LogInit: Texture streaming: Enabled
-[2015.02.22-22.15.26:180][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.02.22-22.15.26:180][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.02.22-22.15.26:180][  0]LogAnalytics: SetUserId e46223e1b84009ca22d653c003e667e2
-[2015.02.22-22.15.26:180][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.02.22-22.15.26:693][  0]LogInit: Transaction tracking system initialized
-[2015.02.22-22.15.27:352][  0]BlueprintLog: New page: Editor Load
-[2015.02.22-22.15.27:866][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.02.22-22.15.27:866][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.02.22-22.15.31:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.22-22.15.31:468][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.22-22.15.34:454][  0]LogConsoleResponse:Display: 
-[2015.02.22-22.15.36:510][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.22-22.15.40:686][  0]SourceControl: Info Source control is disabled
-[2015.02.22-22.15.40:920][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.02.22-22.15.40:920][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap'
-[2015.02.22-22.15.41:045][  0]Cmd: MAP CHECKDEP
-[2015.02.22-22.15.41:076][  0]MapCheck: New page: Untitled_0 - Feb 23, 2015, 12:15:41 AM
-[2015.02.22-22.15.41:318][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 272.156ms to complete.
-[2015.02.22-22.15.41:318][  0]LogFileHelpers: Loading map 'Example_Map' took 0.500
-[2015.02.22-22.15.43:934][  0]LogCollectionManager: Loaded 0 collections in 0.000915 seconds
-[2015.02.22-22.15.46:928][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.02.22-22.15.47:245][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.02.22-22.15.47:371][  0]LogLoad: Full Startup: 101.41 seconds (BP compile: 0.27 seconds)
-[2015.02.22-22.15.47:742][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2015.02.22-22.15.49:667][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x904.
-[2015.02.22-22.16.02:113][ 32]LogAssetRegistry: Asset discovery search completed in 34.2575 seconds
-[2015.02.22-23.14.53:549][721]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2015.02.22-23.14.53:604][721]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2015.02.22-23.14.53:613][721]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2015.02.22-23.14.53:615][721]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2015.02.22-23.14.53:621][721]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2015.02.22-23.14.53:657][721]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2015.02.22-23.14.53:664][721]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2015.02.22-23.14.53:665][721]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2015.02.22-23.14.53:691][721]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.02.22-23.14.53:691][721]LightingResults: New page: Lighting Build
-[2015.02.22-23.14.53:719][721]LoadErrors: New page: Loading map: House.umap
-[2015.02.22-23.14.53:719][721]MapCheck: New page: Map Check
-[2015.02.22-23.14.53:719][721]LightingResults: New page: Lighting Build
-[2015.02.22-23.14.53:725][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001352581580
-[2015.02.22-23.14.53:733][721]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.02.22-23.14.53:733][721]LogAIModule: Creating AISystem for world House
-[2015.02.22-23.14.53:756][721]Cmd: MAP CHECKDEP
-[2015.02.22-23.14.53:756][721]MapCheck: New page: House - Feb 23, 2015, 1:14:53 AM
-[2015.02.22-23.14.53:866][721]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.309ms to complete.
-[2015.02.22-23.14.53:866][721]LogFileHelpers: Loading map 'House' took 0.177
-[2015.02.22-23.15.05:023][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.15.06:354][139]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.02.22-23.15.08:372][329]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.02.22-23.15.13:154][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/WoodenPanel'
-[2015.02.22-23.15.23:845][ 47]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/FBXOBJ/Panel_lo.fbx)
-[2015.02.22-23.15.23:848][ 47]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: NodeAttribute, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: Model, ItemCount : 2
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: Material, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: Texture, ItemCount : 1
-[2015.02.22-23.15.23:849][ 47]LogFbx: ItemName: Video, ItemCount : 1
-[2015.02.22-23.15.27:656][ 47]LogFbx: Loading FBX Scene from ../../../../../../Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/FBXOBJ/Panel_lo.fbx
-[2015.02.22-23.15.27:662][ 47]LogFbx: FBX Scene Loaded Succesfully
-[2015.02.22-23.15.27:694][ 47]LogFbx: == Initial material list:
-[2015.02.22-23.15.27:694][ 47]LogFbx: 0: lambert1
-[2015.02.22-23.15.27:694][ 47]LogFbx: == After sorting:
-[2015.02.22-23.15.27:694][ 47]LogFbx: 0: lambert1
-[2015.02.22-23.15.27:694][ 47]LogFbx: == Mapping table:
-[2015.02.22-23.15.27:694][ 47]LogFbx:   sort 0 -> 0
-[2015.02.22-23.15.27:695][ 47]LogStaticMesh: Building static mesh Panel_lo...
-[2015.02.22-23.15.27:717][ 47]LogLayoutUV:Display: FindCharts: 0 ms
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Rasterize: 629
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Find: 4
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Rasterize: 754
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Find: 6
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Rasterize: 827
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Find: 4
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:718][ 47]LogLayoutUV:Display:   Rasterize: 840
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Find: 4
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Rasterize: 831
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Find: 4
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Rasterize: 831
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Find: 2
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Rasterize: 826
-[2015.02.22-23.15.27:719][ 47]LogLayoutUV:Display:   Find: 5
-[2015.02.22-23.15.27:720][ 47]LogLayoutUV:Display: PackCharts: 0 ms
-[2015.02.22-23.15.27:720][ 47]LogLayoutUV:Display:   Rasterize: 835
-[2015.02.22-23.15.27:720][ 47]LogLayoutUV:Display:   Find: 3
-[2015.02.22-23.15.27:720][ 47]LogStaticMesh: Built static mesh [25.516651ms] /Game/Meshes/WoodenPanel/Panel_lo.Panel_lo
-[2015.02.22-23.15.27:727][ 47]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.02.22-23.15.27:727][ 47]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/WoodenPanel'
-[2015.02.22-23.15.29:450][249]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.02.22-23.15.30:163][333]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.15.31:117][446]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.22-23.15.33:759][723]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.22-23.15.41:048][587]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
-[2015.02.22-23.15.44:216][901]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
-[2015.02.22-23.15.58:912][ 11]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/Textures/WoodenPanel_normals.tga)
-[2015.02.22-23.15.58:944][ 11]0.000035 seconds to analyze Texture2D /Game/Textures/WoodenPanel/WoodenPanel_normals.WoodenPanel_normals
-
-[2015.02.22-23.15.58:976][ 11]LogTexture:Display: Building textures: WoodenPanel_normals (AutoDXT)
-[2015.02.22-23.15.59:862][ 11]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/Textures/WoodenPanel_od.tga)
-[2015.02.22-23.15.59:905][ 11]0.000029 seconds to analyze Texture2D /Game/Textures/WoodenPanel/WoodenPanel_od.WoodenPanel_od
-
-[2015.02.22-23.15.59:912][ 11]LogTexture:Display: Building textures: WoodenPanel_od (AutoDXT)
-[2015.02.22-23.16.00:399][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.02.22-23.16.00:399][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
-[2015.02.22-23.16.00:399][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
-[2015.02.22-23.16.03:484][343]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.03:508][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.02.22-23.16.03:563][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.02.22-23.16.03:563][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.02.22-23.16.03:563][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2015.02.22-23.16.03:563][343]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.02.22-23.16.03:564][343]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.06:249][532]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.02.22-23.16.06:249][532]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.02.22-23.16.06:249][532]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.02.22-23.16.11:717][ 42]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.11:721][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
-[2015.02.22-23.16.12:710][104]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.02.22-23.16.12:710][104]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.02.22-23.16.12:710][104]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.02.22-23.16.13:162][134]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.22-23.16.16:085][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
-[2015.02.22-23.16.16:088][337]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.16:137][338]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
-[2015.02.22-23.16.17:080][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.02.22-23.16.17:080][409]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.02.22-23.16.17:080][409]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.02.22-23.16.20:528][683]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.20:582][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
-[2015.02.22-23.16.20:584][683]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
-[2015.02.22-23.16.21:599][752]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.02.22-23.16.21:599][752]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.02.22-23.16.21:599][752]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.02.22-23.16.23:122][864]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.23:192][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
-[2015.02.22-23.16.24:136][932]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 34 instructions
-[2015.02.22-23.16.24:136][932]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.02.22-23.16.24:136][932]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.02.22-23.16.28:010][254]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.28:036][254]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
-[2015.02.22-23.16.29:174][338]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
-[2015.02.22-23.16.29:174][338]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.29:174][338]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.02.22-23.16.32:546][616]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.32:579][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
-[2015.02.22-23.16.33:537][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
-[2015.02.22-23.16.33:537][687]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.33:537][687]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.16.39:202][178]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.40:317][258]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
-[2015.02.22-23.16.40:317][258]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.40:317][258]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.16.42:966][490]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.44:156][578]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
-[2015.02.22-23.16.44:156][578]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.44:156][578]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.16.47:844][877]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.49:009][964]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
-[2015.02.22-23.16.49:009][964]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.49:009][964]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.16.52:335][235]LogMaterialEditor: Saving and Compiling material WoodenPanelMAT
-[2015.02.22-23.16.53:440][235]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2015.02.22-23.16.53:499][235]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
-[2015.02.22-23.16.53:512][235]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
-[2015.02.22-23.16.53:520][235]LogMaterial: 0.003989 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.02.22-23.16.55:160][235]LogSavePackage: Save=264.285309ms
-[2015.02.22-23.16.55:161][235]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMATF2D28E0A4539337347F04C8217D60CFB.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
-[2015.02.22-23.16.55:167][235]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
-[2015.02.22-23.16.55:167][235]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.16.55:167][235]MaterialEditorStats: Info Texture samplers: 5/16
-[2015.02.22-23.16.57:218][416]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.22-23.16.58:263][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.16.59:900][733]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2015.02.22-23.17.01:090][870]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/WoodenPanel'
-[2015.02.22-23.17.02:064][973]LogActorFactory: Actor Factory created Panel_lo
-[2015.02.22-23.17.02:907][ 68]LogActorFactory: Actor Factory created Panel_lo
-[2015.02.22-23.17.03:027][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.03:177][ 68]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.25:161][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.25:178][326]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.26:726][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.26:743][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.28:166][630]Cmd: TRANSACTION UNDO
-[2015.02.22-23.17.28:166][630]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.17.28:175][630]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.29:904][766]Cmd: TRANSACTION UNDO
-[2015.02.22-23.17.29:904][766]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.17.29:912][766]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.30:843][860]Cmd: TRANSACTION UNDO
-[2015.02.22-23.17.30:843][860]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.17.30:851][860]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.32:484][ 25]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.32:501][ 25]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.33:283][102]Cmd: TRANSACTION UNDO
-[2015.02.22-23.17.33:283][102]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.17.33:291][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.17.35:500][329]Cmd: TRANSACTION UNDO
-[2015.02.22-23.17.35:500][329]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.17.35:508][329]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.18.00:914][879]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.18.01:873][980]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.22-23.18.03:273][122]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
-[2015.02.22-23.19.24:359][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Inner)
-[2015.02.22-23.19.24:366][247]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.25:757][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo)
-[2015.02.22-23.19.25:764][368]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.28:533][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo)
-[2015.02.22-23.19.28:540][646]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.30:101][807]Cmd: DUPLICATE
-[2015.02.22-23.19.30:101][807]Cmd: ACTOR DUPLICATE
-[2015.02.22-23.19.30:150][807]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.30:166][807]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.32:455][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo2)
-[2015.02.22-23.19.32:462][ 40]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.19.57:519][542]Cmd: POLY SELECT ADJACENT WALLS
-[2015.02.22-23.19.57:540][542]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.02:909][ 93]Cmd: TRANSACTION UNDO
-[2015.02.22-23.20.02:909][ 93]LogEditorTransaction: Undo Move Actors
-[2015.02.22-23.20.02:917][ 93]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.08:052][586]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.08:069][586]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.11:258][911]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.11:274][911]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.13:881][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.13:897][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.28:250][644]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo3)
-[2015.02.22-23.20.28:257][644]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.30:837][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo)
-[2015.02.22-23.20.30:844][892]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.20.38:580][667]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.02.22-23.20.38:605][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.02.22-23.20.38:657][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.02.22-23.20.38:657][667]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.02.22-23.20.38:657][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2015.02.22-23.20.38:657][667]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2015.02.22-23.20.38:659][667]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.02.22-23.20.38:688][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
-[2015.02.22-23.20.38:690][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
-[2015.02.22-23.20.40:735][800]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
-[2015.02.22-23.20.40:735][800]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.20.40:735][800]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.21.02:513][337]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.02.22-23.21.04:503][468]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
-[2015.02.22-23.21.04:503][468]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.21.04:503][468]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.21.08:789][772]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2015.02.22-23.21.09:878][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 50 instructions
-[2015.02.22-23.21.09:878][844]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.02.22-23.21.09:878][844]MaterialEditorStats: Info Texture samplers: 2/16
-[2015.02.22-23.21.15:014][180]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.02.22-23.21.15:014][180]LogPlayLevel: [PIE] Compiling House before PIE...
-[2015.02.22-23.21.15:047][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000135F1F6FC0
-[2015.02.22-23.21.15:047][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000134BB4A840
-[2015.02.22-23.21.15:048][180]LogPlayLevel: PIE:  Blueprint regeneration took 34 ms (1 blueprints)
-[2015.02.22-23.21.15:048][180]PIE: New page: PIE session: House (Feb 23, 2015, 1:21:15 AM)
-[2015.02.22-23.21.15:067][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018535s)
-[2015.02.22-23.21.15:068][180]LogPlayLevel: PIE: World Init took: (0.000814s)
-[2015.02.22-23.21.15:068][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.019545s)
-[2015.02.22-23.21.15:356][180]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
-[2015.02.22-23.21.15:357][180]LogWorld: Game class is 'MyGame_C'
-[2015.02.22-23.21.15:359][180]LogAIModule: Creating AISystem for world House
-[2015.02.22-23.21.15:361][180]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-00.21.15
-[2015.02.22-23.21.15:361][180]LogWorld: Bringing up level for play took: 0.002337
-[2015.02.22-23.21.15:362][180]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 0.189
-[2015.02.22-23.21.40:178][134]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.21.40:201][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001366417380
-[2015.02.22-23.21.42:778][377]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
-[2015.02.22-23.21.43:407][439]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.21.44:751][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2015.02.22-23.21.47:951][844]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2015.02.22-23.21.51:410][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Floor)
-[2015.02.22-23.21.51:417][106]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.21.59:152][892]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Panel_lo3)
-[2015.02.22-23.21.59:160][892]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.22.00:284][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Inner)
-[2015.02.22-23.22.00:292][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
-[2015.02.22-23.22.02:471][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
-[2015.02.22-23.22.02:471][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.02.22-23.22.04:964][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2015.02.22-23.22.05:051][ 95]LogSavePackage: Save=59.009892ms
-[2015.02.22-23.22.05:051][ 95]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/House245203D7459A29545F2B34A690DF06CF.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap'
-[2015.02.22-23.22.05:078][ 95]LogFileHelpers: Saving map 'House' took 0.289
-[2015.02.22-23.22.05:092][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WoodenPanel/Panel_lo" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Meshes/WoodenPanel/Panel_lo.uasset" SILENT=true
-[2015.02.22-23.22.05:334][ 95]LogSavePackage: Save=240.928986ms
-[2015.02.22-23.22.05:334][ 95]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Panel_lo1875DD72424DA9C5EE9A0F8B9295638B.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Meshes/WoodenPanel/Panel_lo.uasset'
-[2015.02.22-23.22.06:792][ 95]LogSavePackage: Save=1443.828735ms
-[2015.02.22-23.22.06:792][ 95]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanel_normalsE145AF8641898A4427FCC3AFD4252D76.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanel_normals.uasset'
-[2015.02.22-23.22.07:210][ 95]LogSavePackage: Save=403.911652ms
-[2015.02.22-23.22.07:210][ 95]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanel_od9760DCBA419FB7D91B4855A52161D596.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanel_od.uasset'
-[2015.02.22-23.22.07:855][ 96]Cmd: QUIT_EDITOR
-[2015.02.22-23.22.08:404][ 96]LogExit: Preparing to exit.
-[2015.02.22-23.22.09:836][ 96]LogExit: Editor shut down
-[2015.02.22-23.22.09:836][ 96]LogExit: Transaction tracking system shut down
-[2015.02.22-23.22.09:842][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001358605300
-[2015.02.22-23.22.09:843][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000013554A05E0
-[2015.02.22-23.22.09:843][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000013495D4F40
-[2015.02.22-23.22.09:863][ 96]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000134ADC3240
-[2015.02.22-23.22.09:863][ 96]LogExit: Object subsystem successfully closed.
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module SuperSearch (169)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module SceneOutliner (168)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module EditorWidgets (167)
-[2015.02.22-23.22.10:517][ 96]LogModuleManager: Shutting down and abandoning module CollectionManager (166)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.02.22-23.22.10:518][ 96]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.02.22-23.22.10:557][ 96]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.02.22-23.22.10:657][ 96]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.02.22-23.22.10:657][ 96]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.02.22-23.22.10:657][ 96]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.02.22-23.22.10:657][ 96]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.02.22-23.22.11:248][ 96]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.02.22-23.22.11:390][ 96]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.02.22-23.22.11:417][ 96]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.02.22-23.22.11:418][ 96]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.02.22-23.22.11:418][ 96]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.02.22-23.22.11:418][ 96]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module ProjectExplorer (77)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
-[2015.02.22-23.22.11:419][ 96]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module Paper2D (74)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.02.22-23.22.11:520][ 96]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.02.22-23.22.11:550][ 96]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.02.22-23.22.11:550][ 96]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.02.22-23.22.11:550][ 96]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.02.22-23.22.11:550][ 96]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.02.22-23.22.11:550][ 96]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.02.22-23.22.11:554][ 96]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.02.22-23.22.11:598][ 96]LogDerivedDataCache: Shutdown
-[2015.02.22-23.22.11:598][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.02.22-23.22.11:598][ 96]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.02.22-23.22.11:598][ 96]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.02.22-23.22.11:627][ 96]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.02.22-23.22.11:629][ 96]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.02.22-23.22.11:629][ 96]LogExit: Exiting.
-[2015.02.22-23.22.11:643][ 96]Log file closed, 02/23/15 00:22:11
+[2015.02.23-16.46.40:878][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.23-16.46.40:928][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.23-16.46.41:094][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.23-16.46.41:101][  0]LogInit: Object subsystem initialized
+[2015.02.23-16.46.41:102][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.23-16.46.41:102][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.23-16.46.41:102][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.23-16.46.41:102][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.23-16.46.41:102][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.23-16.46.41:102][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.23-16.46.41:102][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.23-16.46.41:108][  0]LogInit: Computer: KUKRUNAR
+[2015.02.23-16.46.41:108][  0]LogInit: User: Christoffer
+[2015.02.23-16.46.41:108][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.23-16.46.41:108][  0]LogInit: High frequency timer resolution =3.222676 MHz
+[2015.02.23-16.46.41:108][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.02.23-16.46.41:109][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.23-16.46.41:109][  0]LogMemory: Process Physical Memory: 49.04 MB used, 49.04 MB peak
+[2015.02.23-16.46.41:109][  0]LogMemory: Process Virtual Memory: 25.12 MB used, 25.13 MB peak
+[2015.02.23-16.46.41:109][  0]LogMemory: Physical Memory: 2829.54 MB used, 8168.95 MB total
+[2015.02.23-16.46.41:109][  0]LogMemory: Virtual Memory: 274.63 MB used, 134217728.00 MB total
+[2015.02.23-16.46.41:133][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.02.23-16.46.41:133][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4084MB of shared system memory, 1 output[s]
+[2015.02.23-16.46.41:138][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.23-16.46.41:138][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.23-16.46.41:138][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.23-16.46.41:141][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.23-16.46.41:150][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.23-16.46.41:614][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.23-16.46.41:741][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.23-16.46.49:557][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.23-16.46.50:231][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.23-16.46.50:308][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.23-16.46.51:226][  0]LogDerivedDataCache: Loaded boot cache 0.92s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.23-16.46.51:226][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.23-16.46.51:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.23-16.46.51:226][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.23-16.46.51:311][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.23-16.46.51:346][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christoffer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.23-16.46.54:388][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.23-16.46.57:969][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.23-16.46.57:969][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.23-16.46.59:857][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.23-16.47.00:085][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.23-16.47.26:058][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.23-16.47.27:539][  0]SourceControl: Info Source control is disabled
+[2015.02.23-16.47.27:539][  0]SourceControl: Info Source control is disabled
+[2015.02.23-16.47.27:544][  0]SourceControl: Info Source control is disabled
+[2015.02.23-16.47.28:461][  0]LogObj: 23762 objects as part of root set at end of initial load.
+[2015.02.23-16.47.28:461][  0]LogUObjectAllocator: 5176176 out of 0 bytes used by permanent object pool.
+[2015.02.23-16.47.28:570][  0]LogEngine: Initializing Engine...
+[2015.02.23-16.47.29:348][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.23-16.47.29:353][  0]LogInit: FAudioDevice initialized.
+[2015.02.23-16.47.29:401][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.23-16.47.29:417][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.23-16.47.29:421][  0]LogInit: Texture streaming: Enabled
+[2015.02.23-16.47.29:698][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.23-16.47.29:698][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.23-16.47.29:698][  0]LogAnalytics: SetUserId e46223e1b84009ca22d653c003e667e2
+[2015.02.23-16.47.29:698][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.23-16.47.29:869][  0]LogInit: Transaction tracking system initialized
+[2015.02.23-16.47.30:198][  0]BlueprintLog: New page: Editor Load
+[2015.02.23-16.47.30:370][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.02.23-16.47.30:370][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.23-16.47.32:841][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.23-16.47.33:195][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.23-16.47.34:298][  0]LogConsoleResponse:Display: 
+[2015.02.23-16.47.35:365][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.23-16.47.37:479][  0]SourceControl: Info Source control is disabled
+[2015.02.23-16.47.37:479][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.23-16.47.37:479][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap'
+[2015.02.23-16.47.37:479][  0]Cmd: MAP CHECKDEP
+[2015.02.23-16.47.37:480][  0]MapCheck: New page: Untitled_0 - Feb 23, 2015, 6:47:37 PM
+[2015.02.23-16.47.37:558][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.973ms to complete.
+[2015.02.23-16.47.37:558][  0]LogFileHelpers: Loading map 'Example_Map' took 0.079
+[2015.02.23-16.47.37:746][  0]LogCollectionManager: Loaded 0 collections in 0.000906 seconds
+[2015.02.23-16.47.37:756][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.23-16.47.37:982][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.23-16.47.37:988][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.23-16.47.38:013][  0]LogLoad: Full Startup: 59.75 seconds (BP compile: 0.00 seconds)
+[2015.02.23-16.47.38:650][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x904.
+[2015.02.23-16.47.40:093][  2]LogAssetRegistry: Asset discovery search completed in 9.7344 seconds
+[2015.02.23-16.48.30:613][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.23-16.48.39:117][500]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.23-16.48.39:118][500]LightingResults: New page: Lighting Build
+[2015.02.23-16.48.39:146][500]LoadErrors: New page: Loading map: House.umap
+[2015.02.23-16.48.39:146][500]MapCheck: New page: Map Check
+[2015.02.23-16.48.39:146][500]LightingResults: New page: Lighting Build
+[2015.02.23-16.48.39:152][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008060591580
+[2015.02.23-16.48.39:160][500]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.23-16.48.39:160][500]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.48.39:185][500]Cmd: MAP CHECKDEP
+[2015.02.23-16.48.39:185][500]MapCheck: New page: House - Feb 23, 2015, 6:48:39 PM
+[2015.02.23-16.48.39:275][500]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.311ms to complete.
+[2015.02.23-16.48.39:275][500]LogFileHelpers: Loading map 'House' took 0.158
+[2015.02.23-16.48.47:676][452]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.48.47:676][452]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.48.47:770][452]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2015.02.23-16.48.47:770][452]PIE: New page: PIE session: House (Feb 23, 2015, 6:48:47 PM)
+[2015.02.23-16.48.47:787][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016478s)
+[2015.02.23-16.48.47:788][452]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2015.02.23-16.48.47:788][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.017418s)
+[2015.02.23-16.48.48:186][452]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.02.23-16.48.48:187][452]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.48.48:188][452]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.48.48:190][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.48.48
+[2015.02.23-16.48.48:191][452]LogWorld: Bringing up level for play took: 0.002270
+[2015.02.23-16.48.48:192][452]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 0.323
+[2015.02.23-16.48.49:485][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008059FC0F40
+[2015.02.23-16.48.51:295][754]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps/StudyRoom'
+[2015.02.23-16.49.21:709][ 11]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.49.21:709][ 11]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.49.21:758][ 11]LogPlayLevel: PIE:  Blueprint regeneration took 49 ms (1 blueprints)
+[2015.02.23-16.49.21:758][ 11]PIE: New page: PIE session: House (Feb 23, 2015, 6:49:21 PM)
+[2015.02.23-16.49.21:776][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017809s)
+[2015.02.23-16.49.21:777][ 11]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2015.02.23-16.49.21:777][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.018807s)
+[2015.02.23-16.49.21:812][ 11]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.49.21:813][ 11]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.49.21:815][ 11]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.49.21
+[2015.02.23-16.49.21:816][ 11]LogWorld: Bringing up level for play took: 0.002251
+[2015.02.23-16.49.21:817][ 11]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House -0.052
+[2015.02.23-16.49.23:589][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080604453A0
+[2015.02.23-16.49.59:648][622]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.49.59:650][622]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.23-16.49.59:714][622]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.49.59:826][622]LogPlayLevel: PIE:  Blueprint regeneration took 178 ms (2 blueprints)
+[2015.02.23-16.49.59:826][622]PIE: New page: PIE session: House (Feb 23, 2015, 6:49:59 PM)
+[2015.02.23-16.49.59:843][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016491s)
+[2015.02.23-16.49.59:843][622]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.02.23-16.49.59:844][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.017412s)
+[2015.02.23-16.49.59:883][622]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.49.59:884][622]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.49.59:886][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.49.59
+[2015.02.23-16.49.59:887][622]LogWorld: Bringing up level for play took: 0.002242
+[2015.02.23-16.49.59:888][622]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 0.018
+[2015.02.23-16.50.37:498][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000806F81EC00
+[2015.02.23-16.50.52:036][625]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.50.53:459][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.50.53:891][797]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.50.56:572][ 59]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.50.57:560][159]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.50.58:677][270]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.06:639][ 88]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.51.06:645][ 88]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.51.06:703][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2015.02.23-16.51.06:703][ 88]PIE: New page: PIE session: House (Feb 23, 2015, 6:51:06 PM)
+[2015.02.23-16.51.06:721][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018386s)
+[2015.02.23-16.51.06:722][ 88]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2015.02.23-16.51.06:722][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.019351s)
+[2015.02.23-16.51.06:763][ 88]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.51.06:765][ 88]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.51.06:766][ 88]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.51.06
+[2015.02.23-16.51.06:767][ 88]LogWorld: Bringing up level for play took: 0.002207
+[2015.02.23-16.51.06:768][ 88]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 0.899
+[2015.02.23-16.51.08:011][227]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.08:065][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000806F81FCE0
+[2015.02.23-16.51.09:168][339]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.09:674][389]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.10:068][428]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.11:066][529]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.11:745][597]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.18:400][270]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-16.51.21:885][629]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.25:512][ 13]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.51.25:518][ 13]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.51.25:590][ 13]LogPlayLevel: PIE:  Blueprint regeneration took 77 ms (1 blueprints)
+[2015.02.23-16.51.25:590][ 13]PIE: New page: PIE session: House (Feb 23, 2015, 6:51:25 PM)
+[2015.02.23-16.51.25:607][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017194s)
+[2015.02.23-16.51.25:608][ 13]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2015.02.23-16.51.25:608][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.018100s)
+[2015.02.23-16.51.25:647][ 13]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.51.25:649][ 13]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.51.25:650][ 13]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.51.25
+[2015.02.23-16.51.25:651][ 13]LogWorld: Bringing up level for play took: 0.002220
+[2015.02.23-16.51.25:652][ 13]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House -0.217
+[2015.02.23-16.51.27:741][254]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.51.27:796][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000807111ACA0
+[2015.02.23-16.51.33:406][810]MapCheck: New page: Map Check
+[2015.02.23-16.51.33:415][810]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.23-16.51.33:415][810]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.23-16.51.33:416][810]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.02.23-16.51.33:481][810]LightingResults: New page: Lighting Build - Feb 23, 2015, 6:51:33 PM
+[2015.02.23-16.51.41:610][810]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.23-16.51.41:610][810]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.23-16.51.41:610][810]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.23-16.51.41:610][810]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.23-16.51.41:610][810]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.23-16.51.41:842][810]LogEditorBuildUtils: Build time 0:00:08
+[2015.02.23-16.51.42:522][814]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WoodenPanelMAT, compiling.
+[2015.02.23-16.51.42:580][814]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WoodenPanelMAT, compiling.
+[2015.02.23-16.51.47:908][899]Job is a success!
+[2015.02.23-16.51.48:417][900]LogMaterial:Warning: Material /Game/Textures/WoodenPanel/WoodenPanelMAT.WoodenPanelMAT needed to have new flag set bUsedWithStaticLighting !
+[2015.02.23-16.51.48:458][900]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.23-16.51.48:492][900]LogMaterial: 0.000143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.23-16.51.48:550][900]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.02.23-16.51.48:610][900]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.02.23-16.51.48:714][900]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.02.23-16.51.48:769][900]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.02.23-16.51.48:770][900]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.02.23-16.51.48:774][900]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.02.23-16.51.48:781][900]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.02.23-16.51.48:792][900]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.02.23-16.51.49:165][900]Lightmass on KUKRUNAR: 2.59 sec total, 285 ms importing, 4 ms setup, 111 ms photons, 2.15 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 8.58 sec total, 2.58 sec processing.
+[2015.02.23-16.51.49:183][900]LogStaticLightingSystem:Warning: Illumination: 15.3 sec (263 ms encoding lightmaps)
+[2015.02.23-16.51.49:184][900]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.02.23-16.51.49:184][900]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.02.23-16.51.49:629][901]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.23-16.51.49:629][901]MapCheck: New page: House - Feb 23, 2015, 6:51:49 PM
+[2015.02.23-16.51.51:371][901]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,743ms to complete.
+[2015.02.23-16.53.41:611][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ceiling)
+[2015.02.23-16.53.41:619][999]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.53.54:509][337]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2015.02.23-16.54.01:075][997]Cmd: TRANSACTION UNDO
+[2015.02.23-16.54.01:075][997]LogEditorTransaction: Undo Move Actors
+[2015.02.23-16.54.01:243][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.23-16.54.01:427][997]LogSavePackage: Save=152.988693ms
+[2015.02.23-16.54.01:427][997]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/HouseABDF46614C681C25BBA3948115E95990.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap'
+[2015.02.23-16.54.01:486][997]LogFileHelpers: Saving map 'House' took 0.362
+[2015.02.23-16.54.01:822][997]LogSavePackage: Save=297.592133ms
+[2015.02.23-16.54.01:822][997]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMAT5069173B432E1F1310AA238F0E0252FA.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.23-16.54.17:020][565]Cmd: TRANSACTION UNDO
+[2015.02.23-16.54.17:020][565]LogEditorTransaction: Undo Move Actors
+[2015.02.23-16.54.52:401][958]Cmd: DELETE
+[2015.02.23-16.54.52:401][958]Cmd: ACTOR DELETE
+[2015.02.23-16.54.52:420][958]LogEditorActor: Deleted Actor: PointLight
+[2015.02.23-16.54.52:434][958]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.02.23-16.55.28:353][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Floor)
+[2015.02.23-16.55.28:361][886]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-16.55.29:293][946]Cmd: TRANSACTION UNDO
+[2015.02.23-16.55.29:293][946]LogEditorTransaction: Undo Clicking on Actors
+[2015.02.23-16.56.16:804][627]MapCheck: New page: Map Check
+[2015.02.23-16.56.16:819][627]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.23-16.56.16:819][627]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.23-16.56.16:820][627]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.02.23-16.56.16:857][627]LightingResults: New page: Lighting Build - Feb 23, 2015, 6:56:16 PM
+[2015.02.23-16.56.21:371][627]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.23-16.56.21:371][627]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.23-16.56.21:371][627]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.23-16.56.21:371][627]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.23-16.56.21:371][627]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.23-16.56.21:403][627]LogEditorBuildUtils: Build time 0:00:04
+[2015.02.23-16.56.26:141][ 11]Job is a success!
+[2015.02.23-16.56.26:243][ 12]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.02.23-16.56.26:355][ 12]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.02.23-16.56.26:358][ 12]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.02.23-16.56.26:361][ 12]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.02.23-16.56.26:366][ 12]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.02.23-16.56.26:374][ 12]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.02.23-16.56.26:377][ 12]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.02.23-16.56.26:383][ 12]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.02.23-16.56.26:390][ 12]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.02.23-16.56.26:403][ 12]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.02.23-16.56.26:513][ 12]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.02.23-16.56.26:519][ 12]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.02.23-16.56.26:553][ 12]Lightmass on KUKRUNAR: 4.23 sec total, 120 ms importing, 6 ms setup, 901 ms photons, 3.19 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 12.7 sec total, 8.08 sec processing.
+[2015.02.23-16.56.26:631][ 12]LogStaticLightingSystem:Warning: Illumination: 9.73 sec (322 ms encoding lightmaps)
+[2015.02.23-16.56.26:631][ 12]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.02.23-16.56.26:631][ 12]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.02.23-16.56.27:386][ 13]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.23-16.56.27:386][ 13]MapCheck: New page: House - Feb 23, 2015, 6:56:27 PM
+[2015.02.23-16.56.27:486][ 13]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.406ms to complete.
+[2015.02.23-16.56.28:784][132]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.56.28:787][132]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.56.28:831][132]LogPlayLevel: PIE:  Blueprint regeneration took 47 ms (1 blueprints)
+[2015.02.23-16.56.28:831][132]PIE: New page: PIE session: House (Feb 23, 2015, 6:56:28 PM)
+[2015.02.23-16.56.28:882][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050928s)
+[2015.02.23-16.56.28:883][132]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2015.02.23-16.56.28:884][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.052008s)
+[2015.02.23-16.56.28:920][132]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.56.28:922][132]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.56.28:923][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.56.28
+[2015.02.23-16.56.28:924][132]LogWorld: Bringing up level for play took: 0.002262
+[2015.02.23-16.56.28:925][132]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 1.056
+[2015.02.23-16.57.03:249][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000805614F100
+[2015.02.23-16.57.32:882][595]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-16.57.32:907][595]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-16.57.32:990][595]LogPlayLevel: PIE:  Blueprint regeneration took 108 ms (1 blueprints)
+[2015.02.23-16.57.32:990][595]PIE: New page: PIE session: House (Feb 23, 2015, 6:57:32 PM)
+[2015.02.23-16.57.33:010][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019233s)
+[2015.02.23-16.57.33:010][595]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2015.02.23-16.57.33:011][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.020195s)
+[2015.02.23-16.57.33:050][595]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-16.57.33:051][595]LogAIModule: Creating AISystem for world House
+[2015.02.23-16.57.33:053][595]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-17.57.33
+[2015.02.23-16.57.33:053][595]LogWorld: Bringing up level for play took: 0.002492
+[2015.02.23-16.57.33:055][595]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House -0.814
+[2015.02.23-16.58.26:706][963]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:714][964]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:722][965]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:731][966]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:739][967]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:748][968]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:756][969]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:764][970]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:773][971]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:781][972]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:790][973]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:799][974]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:807][975]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:815][976]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:824][977]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:832][978]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:840][979]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:848][980]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:857][981]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:865][982]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:873][983]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:882][984]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:890][985]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:898][986]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:907][987]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:915][988]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:923][989]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:932][990]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:940][991]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:948][992]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:957][993]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:965][994]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:973][995]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:982][996]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:990][997]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.26:998][998]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:007][999]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:015][  0]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:023][  1]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:032][  2]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:040][  3]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:048][  4]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:057][  5]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:065][  6]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:073][  7]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:398][ 46]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:406][ 47]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:415][ 48]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:423][ 49]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:432][ 50]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:440][ 51]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:448][ 52]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:456][ 53]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:465][ 54]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:473][ 55]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:482][ 56]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:490][ 57]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:498][ 58]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:506][ 59]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:515][ 60]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:523][ 61]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:531][ 62]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:540][ 63]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:548][ 64]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:556][ 65]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:565][ 66]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:573][ 67]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:581][ 68]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:590][ 69]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:598][ 70]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:606][ 71]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:615][ 72]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:623][ 73]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:631][ 74]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:640][ 75]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:648][ 76]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:656][ 77]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:665][ 78]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:673][ 79]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:681][ 80]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.27:690][ 81]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:049][124]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:057][125]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:065][126]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:074][127]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:082][128]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:091][129]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:099][130]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:107][131]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:116][132]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:124][133]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:132][134]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:141][135]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:149][136]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:157][137]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:165][138]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:175][139]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:182][140]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:191][141]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:199][142]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:207][143]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:215][144]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:224][145]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:232][146]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:241][147]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.28:249][148]LogCharacterMovement: MyCharacter_C_6 is stuck and failed to move!
+[2015.02.23-16.58.59:266][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000806F81D940
+[2015.02.23-17.07.19:139][328]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-17.07.19:142][328]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-17.07.19:205][328]LogPlayLevel: PIE:  Blueprint regeneration took 66 ms (1 blueprints)
+[2015.02.23-17.07.19:206][328]PIE: New page: PIE session: House (Feb 23, 2015, 7:07:19 PM)
+[2015.02.23-17.07.19:226][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019787s)
+[2015.02.23-17.07.19:226][328]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2015.02.23-17.07.19:227][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.020894s)
+[2015.02.23-17.07.19:267][328]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-17.07.19:269][328]LogAIModule: Creating AISystem for world House
+[2015.02.23-17.07.19:270][328]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-18.07.19
+[2015.02.23-17.07.19:271][328]LogWorld: Bringing up level for play took: 0.002323
+[2015.02.23-17.07.19:272][328]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House -0.597
+[2015.02.23-17.07.22:221][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000806B8FEC00
+[2015.02.23-17.07.22:824][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.07.22:832][728]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.07.32:634][747]LogSavePackage: Save=156.506897ms
+[2015.02.23-17.07.32:634][747]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/House_Auto126AFAB264F1118EAEE98549ED84FCF18.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Autosaves/Game/Maps/House_Auto1.umap'
+[2015.02.23-17.07.32:640][747]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House' took 0.231
+[2015.02.23-17.07.32:640][747]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2015.02.23-17.07.41:762][712]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-17.07.41:766][712]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-17.07.41:857][712]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.02.23-17.07.41:857][712]PIE: New page: PIE session: House (Feb 23, 2015, 7:07:41 PM)
+[2015.02.23-17.07.41:877][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019026s)
+[2015.02.23-17.07.41:877][712]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2015.02.23-17.07.41:877][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.019971s)
+[2015.02.23-17.07.41:917][712]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-17.07.41:918][712]LogAIModule: Creating AISystem for world House
+[2015.02.23-17.07.41:920][712]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-18.07.41
+[2015.02.23-17.07.41:921][712]LogWorld: Bringing up level for play took: 0.002285
+[2015.02.23-17.07.41:922][712]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 0.053
+[2015.02.23-17.07.43:178][853]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.07.43:233][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008071087060
+[2015.02.23-17.07.50:817][626]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-17.07.50:820][626]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-17.07.50:865][626]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2015.02.23-17.07.50:865][626]PIE: New page: PIE session: House (Feb 23, 2015, 7:07:50 PM)
+[2015.02.23-17.07.50:888][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023180s)
+[2015.02.23-17.07.50:889][626]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2015.02.23-17.07.50:889][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.024151s)
+[2015.02.23-17.07.50:929][626]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-17.07.50:930][626]LogAIModule: Creating AISystem for world House
+[2015.02.23-17.07.50:932][626]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-18.07.50
+[2015.02.23-17.07.50:933][626]LogWorld: Bringing up level for play took: 0.002341
+[2015.02.23-17.07.50:934][626]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 1.065
+[2015.02.23-17.08.26:488][852]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.08.26:545][853]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008067635A80
+[2015.02.23-17.09.04:228][816]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.23-17.09.04:228][816]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.23-17.09.04:228][816]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.02.23-17.09.04:228][816]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.02.23-17.13.13:818][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ceiling)
+[2015.02.23-17.13.13:827][166]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.13.32:968][303]MapCheck: New page: Map Check
+[2015.02.23-17.13.32:993][303]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.23-17.13.32:993][303]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.23-17.13.32:994][303]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.02.23-17.13.33:004][303]LightingResults: New page: Lighting Build - Feb 23, 2015, 7:13:33 PM
+[2015.02.23-17.13.37:519][303]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.23-17.13.37:519][303]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.23-17.13.37:519][303]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.23-17.13.37:519][303]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.23-17.13.37:519][303]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.23-17.13.37:552][303]LogEditorBuildUtils: Build time 0:00:04
+[2015.02.23-17.13.43:140][851]Job is a success!
+[2015.02.23-17.13.43:250][852]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.02.23-17.13.43:414][852]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.02.23-17.13.43:417][852]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.02.23-17.13.43:420][852]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.02.23-17.13.43:424][852]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.02.23-17.13.43:431][852]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.02.23-17.13.43:464][852]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.02.23-17.13.43:467][852]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.02.23-17.13.43:476][852]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.02.23-17.13.43:489][852]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.02.23-17.13.43:621][852]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.02.23-17.13.43:628][852]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.02.23-17.13.43:630][852]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.02.23-17.13.43:680][852]Lightmass on KUKRUNAR: 5.48 sec total, 174 ms importing, 4 ms setup, 1.22 sec photons, 4.06 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 16.2 sec total, 10.2 sec processing.
+[2015.02.23-17.13.43:730][852]LogStaticLightingSystem:Warning: Illumination: 10.6 sec (431 ms encoding lightmaps)
+[2015.02.23-17.13.43:730][852]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 10 textures
+[2015.02.23-17.13.43:730][852]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2015.02.23-17.13.44:533][853]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.23-17.13.44:533][853]MapCheck: New page: House - Feb 23, 2015, 7:13:44 PM
+[2015.02.23-17.13.44:651][853]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 117.886ms to complete.
+[2015.02.23-17.13.47:540][150]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.23-17.13.47:544][150]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.23-17.13.47:588][150]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2015.02.23-17.13.47:588][150]PIE: New page: PIE session: House (Feb 23, 2015, 7:13:47 PM)
+[2015.02.23-17.13.47:626][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037570s)
+[2015.02.23-17.13.47:627][150]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2015.02.23-17.13.47:627][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.038722s)
+[2015.02.23-17.13.47:660][150]LogWorld: Game class is 'MyGame_C'
+[2015.02.23-17.13.47:661][150]LogAIModule: Creating AISystem for world House
+[2015.02.23-17.13.47:663][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.23-18.13.47
+[2015.02.23-17.13.47:664][150]LogWorld: Bringing up level for play took: 0.002287
+[2015.02.23-17.13.47:665][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House -0.204
+[2015.02.23-17.13.50:746][496]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.13.50:799][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080670AFBA0
+[2015.02.23-17.13.58:366][391]Cmd: TRANSACTION UNDO
+[2015.02.23-17.13.58:366][391]LogEditorTransaction: Undo Move Actors
+[2015.02.23-17.13.58:374][391]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.20:186][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.15.20:193][279]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.21:255][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.15.21:262][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.26:349][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.15.26:356][937]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.27:840][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.15.27:847][ 83]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.36:678][ 10]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/House.HQ_Lightmap0_1. Streaming mips will be recached.
+[2015.02.23-17.15.36:682][ 10]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.02.23-17.15.41:437][523]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (StudyRoom_Inner)
+[2015.02.23-17.15.41:444][523]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.42:356][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Floor)
+[2015.02.23-17.15.42:363][608]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.45:095][904]Cmd: TRANSACTION UNDO
+[2015.02.23-17.15.45:095][904]LogEditorTransaction: Undo Clicking on Actors
+[2015.02.23-17.15.45:102][904]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.45:418][914]Cmd: TRANSACTION UNDO
+[2015.02.23-17.15.45:418][914]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.02.23-17.15.45:425][914]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.45:822][928]Cmd: TRANSACTION UNDO
+[2015.02.23-17.15.45:822][928]LogEditorTransaction: Undo Move Actors
+[2015.02.23-17.15.45:830][928]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.15.52:912][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.15.52:919][671]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.02:830][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.16.02:838][740]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.04:627][919]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-17.16.14:784][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.16.14:792][963]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.23:224][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.16.23:231][826]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.24:171][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Inner)
+[2015.02.23-17.16.24:179][916]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.25:715][ 80]Cmd: TRANSACTION UNDO
+[2015.02.23-17.16.25:715][ 80]LogEditorTransaction: Undo Clicking on Actors
+[2015.02.23-17.16.25:723][ 80]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.26:142][ 92]Cmd: TRANSACTION UNDO
+[2015.02.23-17.16.26:142][ 92]LogEditorTransaction: Undo Clicking on Actors
+[2015.02.23-17.16.26:149][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.26:728][138]Cmd: TRANSACTION UNDO
+[2015.02.23-17.16.26:728][138]LogEditorTransaction: Undo Move Actors
+[2015.02.23-17.16.26:736][138]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.27:247][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.16.27:255][188]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.28:923][363]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-17.16.36:175][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.16.36:182][102]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.46:209][140]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-17.16.48:695][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.16.48:702][367]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.54:519][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.16.54:527][931]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.55:011][982]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_polySurface41)
+[2015.02.23-17.16.55:018][982]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.16.56:040][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-17.17.07:566][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.17.07:574][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.17.20:572][643]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.23-17.17.47:345][428]MapCheck: New page: Map Check
+[2015.02.23-17.17.47:370][428]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.23-17.17.47:370][428]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.23-17.17.47:371][428]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.02.23-17.17.47:381][428]LightingResults: New page: Lighting Build - Feb 23, 2015, 7:17:47 PM
+[2015.02.23-17.17.51:896][428]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.23-17.17.51:896][428]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.23-17.17.51:896][428]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.23-17.17.51:896][428]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.23-17.17.51:896][428]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.23-17.17.51:928][428]LogEditorBuildUtils: Build time 0:00:04
+[2015.02.23-17.17.56:504][440]Job is a success!
+[2015.02.23-17.17.57:043][441]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.02.23-17.17.57:107][441]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.02.23-17.17.57:110][441]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.02.23-17.17.57:113][441]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.02.23-17.17.57:118][441]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.02.23-17.17.57:126][441]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.02.23-17.17.57:135][441]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.02.23-17.17.57:288][441]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.02.23-17.17.57:608][441]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.02.23-17.17.57:618][441]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.02.23-17.17.57:646][441]Lightmass on KUKRUNAR: 4.44 sec total, 133 ms importing, 3 ms setup, 642 ms photons, 3.64 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 14.5 sec total, 6.58 sec processing.
+[2015.02.23-17.17.57:650][441]LogStaticLightingSystem:Warning: Illumination: 9.93 sec (592 ms encoding lightmaps)
+[2015.02.23-17.17.57:650][441]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.02.23-17.17.57:650][441]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 7 textures
+[2015.02.23-17.17.57:912][442]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.23-17.17.57:912][442]MapCheck: New page: House - Feb 23, 2015, 7:17:57 PM
+[2015.02.23-17.17.58:018][442]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.116ms to complete.
+[2015.02.23-17.18.16:552][496]LogSavePackage: Save=168.475830ms
+[2015.02.23-17.18.16:552][496]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/House_Auto2DB22AF96416F933F44CA20ACB07D89FC.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Autosaves/Game/Maps/House_Auto2.umap'
+[2015.02.23-17.18.16:559][496]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/House' took 0.251
+[2015.02.23-17.18.16:559][496]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2015.02.23-17.21.06:176][398]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.23-17.21.21:614][106]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/LightTypes/Directional/index.html
+[2015.02.23-17.27.10:232][ 93]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Building_PrototypeFloor)
+[2015.02.23-17.27.10:240][ 93]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.23-17.27.10:442][108]Cmd: TRANSACTION UNDO
+[2015.02.23-17.27.10:442][108]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2015.02.23-17.31.33:684][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.23-17.31.33:863][917]LogSavePackage: Save=145.594528ms
+[2015.02.23-17.31.33:863][917]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/House30BE98454852E50A323D25B8127B286E.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap'
+[2015.02.23-17.31.33:892][917]LogFileHelpers: Saving map 'House' took 0.324
+[2015.02.23-17.31.34:487][918]Cmd: QUIT_EDITOR
+[2015.02.23-17.31.35:058][918]LogExit: Preparing to exit.
+[2015.02.23-17.31.36:204][918]LogExit: Editor shut down
+[2015.02.23-17.31.36:204][918]LogExit: Transaction tracking system shut down
+[2015.02.23-17.31.36:205][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008059FC11C0
+[2015.02.23-17.31.36:205][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008060E1CE00
+[2015.02.23-17.31.36:205][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008060444900
+[2015.02.23-17.31.36:207][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080679E9940
+[2015.02.23-17.31.36:245][918]LogExit: Object subsystem successfully closed.
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module SuperSearch (169)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module SceneOutliner (168)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module EditorWidgets (167)
+[2015.02.23-17.31.36:344][918]LogModuleManager: Shutting down and abandoning module CollectionManager (166)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.23-17.31.36:345][918]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.23-17.31.36:360][918]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.23-17.31.36:360][918]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.23-17.31.36:360][918]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.23-17.31.36:389][918]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.23-17.31.36:435][918]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.23-17.31.36:618][918]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.23-17.31.36:619][918]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.23-17.31.36:619][918]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.23-17.31.36:619][918]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.23-17.31.36:639][918]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.23-17.31.36:667][918]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.23-17.31.36:715][918]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.23-17.31.36:882][918]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.23-17.31.36:923][918]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.23-17.31.36:925][918]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.23-17.31.36:925][918]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.23-17.31.36:925][918]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module ProjectExplorer (77)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.02.23-17.31.36:927][918]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.02.23-17.31.37:028][918]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.02.23-17.31.37:028][918]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.23-17.31.37:030][918]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.23-17.31.37:111][918]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.23-17.31.37:112][918]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.23-17.31.37:112][918]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.23-17.31.37:112][918]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.23-17.31.37:112][918]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.23-17.31.37:116][918]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.23-17.31.37:176][918]LogDerivedDataCache: Shutdown
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.23-17.31.37:176][918]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.23-17.31.37:182][918]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.23-17.31.37:182][918]LogExit: Exiting.
+[2015.02.23-17.31.37:186][918]Log file closed, 02/23/15 18:31:37
