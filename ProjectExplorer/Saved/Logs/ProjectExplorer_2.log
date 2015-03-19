@@ -1,5 +1,6 @@
-﻿Log file open, 02/15/15 21:58:32
+﻿Log file open, 02/28/15 13:43:15
 LogInit:Display: Running engine for game: ProjectExplorer
+LogConfig:Warning: Failed to saved backup for config[Engine]
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
 LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
@@ -9,262 +10,861 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.02.15-20.58.32:229][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.02.15-20.58.32:282][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.02.15-20.58.32:310][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.02.15-20.58.32:317][  0]LogInit: Object subsystem initialized
-[2015.02.15-20.58.32:318][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.02.15-20.58.32:318][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.15-20.58.32:319][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.02.15-20.58.32:319][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.15-20.58.32:319][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.02.15-20.58.32:319][  0]LogInit: Selected Device Profile: [Windows]
-[2015.02.15-20.58.32:319][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.02.15-20.58.32:327][  0]LogInit: Computer: KUKRUNAR
-[2015.02.15-20.58.32:327][  0]LogInit: User: Christoffer
-[2015.02.15-20.58.32:327][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.02.15-20.58.32:327][  0]LogInit: High frequency timer resolution =3.222684 MHz
-[2015.02.15-20.58.32:327][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
-[2015.02.15-20.58.32:327][  0]LogMemory: Platform Memory Stats for Windows
-[2015.02.15-20.58.32:327][  0]LogMemory: Process Physical Memory: 49.09 MB used, 49.09 MB peak
-[2015.02.15-20.58.32:327][  0]LogMemory: Process Virtual Memory: 25.13 MB used, 25.14 MB peak
-[2015.02.15-20.58.32:327][  0]LogMemory: Physical Memory: 5026.65 MB used, 8168.95 MB total
-[2015.02.15-20.58.32:327][  0]LogMemory: Virtual Memory: 274.63 MB used, 134217728.00 MB total
-[2015.02.15-20.58.32:353][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
-[2015.02.15-20.58.32:353][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4084MB of shared system memory, 1 output[s]
-[2015.02.15-20.58.32:355][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2015.02.15-20.58.32:355][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2015.02.15-20.58.32:355][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.02.15-20.58.32:360][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.02.15-20.58.32:371][  0]LogD3D11RHI: Async texture creation enabled
-[2015.02.15-20.58.32:452][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
-[2015.02.15-20.58.32:605][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.02.15-20.58.40:015][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.15-20.58.40:523][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.15-20.58.40:575][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.02.15-20.58.40:616][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.15-20.58.40:616][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.02.15-20.58.40:616][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.02.15-20.58.40:616][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.02.15-20.58.40:674][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.02.15-20.58.40:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christoffer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.02.15-20.58.40:823][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.02.15-20.58.40:954][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.02.15-20.58.40:954][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.02.15-20.58.41:317][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.02.15-20.58.41:381][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.02.15-20.58.42:320][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.02.15-20.58.42:695][  0]SourceControl: Info Source control is disabled
-[2015.02.15-20.58.42:695][  0]SourceControl: Info Source control is disabled
-[2015.02.15-20.58.42:702][  0]SourceControl: Info Source control is disabled
-[2015.02.15-20.58.42:859][  0]LogObj: 23762 objects as part of root set at end of initial load.
-[2015.02.15-20.58.42:859][  0]LogUObjectAllocator: 5176176 out of 0 bytes used by permanent object pool.
-[2015.02.15-20.58.42:919][  0]LogEngine: Initializing Engine...
-[2015.02.15-20.58.43:066][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2015.02.15-20.58.43:070][  0]LogInit: FAudioDevice initialized.
-[2015.02.15-20.58.43:094][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.02.15-20.58.43:113][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.15-20.58.43:119][  0]LogInit: Texture streaming: Enabled
-[2015.02.15-20.58.43:153][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.02.15-20.58.43:153][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.02.15-20.58.43:154][  0]LogAnalytics: SetUserId e46223e1b84009ca22d653c003e667e2
-[2015.02.15-20.58.43:154][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.02.15-20.58.43:180][  0]LogInit: Transaction tracking system initialized
-[2015.02.15-20.58.43:293][  0]BlueprintLog: New page: Editor Load
-[2015.02.15-20.58.43:330][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
-[2015.02.15-20.58.43:330][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.02.15-20.58.43:893][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.15-20.58.44:287][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.15-20.58.44:502][  0]LogConsoleResponse:Display: 
-[2015.02.15-20.58.44:552][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.15-20.58.44:775][  0]SourceControl: Info Source control is disabled
-[2015.02.15-21.07.29:014][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.02.15-21.07.29:014][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap'
-[2015.02.15-21.07.29:014][  0]Cmd: MAP CHECKDEP
-[2015.02.15-21.07.29:014][  0]MapCheck: New page: Untitled_0 - Feb 15, 2015, 11:07:29 PM
-[2015.02.15-21.07.29:098][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.975ms to complete.
-[2015.02.15-21.07.29:098][  0]LogFileHelpers: Loading map 'Example_Map' took 0.084
-[2015.02.15-21.07.29:141][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2d74_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_2c90_0///////STATCAT_Advanced////
-[2015.02.15-21.07.29:141][  0]LogCollectionManager: Loaded 0 collections in 0.000956 seconds
-[2015.02.15-21.07.29:237][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.02.15-21.07.29:241][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.02.15-21.07.29:267][  0]LogLoad: Full Startup: 539.17 seconds (BP compile: 0.00 seconds)
-[2015.02.15-21.07.29:610][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
-[2015.02.15-21.07.29:727][  0]LogRenderer:Warning: Reallocating scene render targets to support 1152x904.
-[2015.02.15-21.07.29:952][  1]LogAssetRegistry: Asset discovery search completed in 526.6340 seconds
-[2015.02.15-21.07.33:455][126]Cmd: QUIT_EDITOR
-[2015.02.15-21.07.34:018][126]LogExit: Preparing to exit.
-[2015.02.15-21.07.34:970][126]LogExit: Editor shut down
-[2015.02.15-21.07.34:970][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000047E1E19580
-[2015.02.15-21.07.34:970][126]LogExit: Transaction tracking system shut down
-[2015.02.15-21.07.34:985][126]LogExit: Object subsystem successfully closed.
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module SuperSearch (169)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module SceneOutliner (168)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module EditorWidgets (167)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module CollectionManager (166)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.02.15-21.07.35:040][126]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.02.15-21.07.35:041][126]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.02.15-21.07.35:089][126]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.02.15-21.07.35:090][126]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module ProjectExplorer (77)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
-[2015.02.15-21.07.35:091][126]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
-[2015.02.15-21.07.35:192][126]LogModuleManager: Shutting down and abandoning module Paper2D (74)
-[2015.02.15-21.07.35:192][126]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.02.15-21.07.35:193][126]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.02.15-21.07.35:197][126]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.02.15-21.07.35:197][126]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.02.15-21.07.35:197][126]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.02.15-21.07.35:198][126]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.02.15-21.07.35:209][126]LogDerivedDataCache: Shutdown
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.02.15-21.07.35:209][126]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.02.15-21.07.35:210][126]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.02.15-21.07.35:210][126]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.02.15-21.07.35:210][126]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.02.15-21.07.35:210][126]LogExit: Exiting.
-[2015.02.15-21.07.35:213][126]Log file closed, 02/15/15 22:07:35
+[2015.02.28-12.43.17:364][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.28-12.43.17:415][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.28-12.43.17:627][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.28-12.43.17:634][  0]LogInit: Object subsystem initialized
+[2015.02.28-12.43.17:635][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.28-12.43.17:635][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.28-12.43.17:635][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.28-12.43.17:635][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.28-12.43.17:636][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.28-12.43.17:636][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.28-12.43.17:636][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.28-12.43.17:642][  0]LogInit: Computer: KUKRUNAR
+[2015.02.28-12.43.17:642][  0]LogInit: User: Christoffer
+[2015.02.28-12.43.17:642][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.28-12.43.17:642][  0]LogInit: High frequency timer resolution =3.222686 MHz
+[2015.02.28-12.43.17:642][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.02.28-12.43.17:642][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.28-12.43.17:642][  0]LogMemory: Process Physical Memory: 49.05 MB used, 49.05 MB peak
+[2015.02.28-12.43.17:642][  0]LogMemory: Process Virtual Memory: 25.16 MB used, 25.16 MB peak
+[2015.02.28-12.43.17:642][  0]LogMemory: Physical Memory: 5358.51 MB used, 8168.95 MB total
+[2015.02.28-12.43.17:642][  0]LogMemory: Virtual Memory: 274.63 MB used, 134217728.00 MB total
+[2015.02.28-12.43.17:778][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.02.28-12.43.17:778][  0]LogD3D11RHI: Adapter has 4011MB of dedicated video memory, 0MB of dedicated system memory, and 4084MB of shared system memory, 1 output[s]
+[2015.02.28-12.43.17:858][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.28-12.43.17:858][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.28-12.43.17:858][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.28-12.43.17:863][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.28-12.43.17:878][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.28-12.43.19:088][  0]LogTextLocalizationManager: The requested culture ('sv_SE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.28-12.43.19:220][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.28-12.43.29:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.28-12.43.31:216][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.28-12.43.31:376][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.28-12.43.32:095][  0]LogDerivedDataCache: Loaded boot cache 0.70s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.28-12.43.32:095][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.28-12.43.32:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.28-12.43.32:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.28-12.43.32:254][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.28-12.43.32:292][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Christoffer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.28-12.43.38:594][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.28-12.43.40:913][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.28-12.43.40:913][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.28-12.43.47:251][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.28-12.43.47:801][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.28-12.44.16:932][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.28-12.44.20:715][  0]SourceControl: Info Source control is disabled
+[2015.02.28-12.44.20:715][  0]SourceControl: Info Source control is disabled
+[2015.02.28-12.44.20:721][  0]SourceControl: Info Source control is disabled
+[2015.02.28-12.44.22:327][  0]LogObj: 23762 objects as part of root set at end of initial load.
+[2015.02.28-12.44.22:327][  0]LogUObjectAllocator: 5176176 out of 0 bytes used by permanent object pool.
+[2015.02.28-12.44.23:034][  0]LogEngine: Initializing Engine...
+[2015.02.28-12.44.23:796][  0]LogInit: XAudio2 using 'SAMSUNG-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.28-12.44.23:803][  0]LogInit: FAudioDevice initialized.
+[2015.02.28-12.44.24:424][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.28-12.44.24:652][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Christoffer/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.28-12.44.24:656][  0]LogInit: Texture streaming: Enabled
+[2015.02.28-12.44.24:859][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.28-12.44.24:859][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.28-12.44.24:859][  0]LogAnalytics: SetUserId e46223e1b84009ca22d653c003e667e2
+[2015.02.28-12.44.24:859][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.28-12.44.25:623][  0]LogInit: Transaction tracking system initialized
+[2015.02.28-12.44.27:022][  0]BlueprintLog: New page: Editor Load
+[2015.02.28-12.44.27:270][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.02.28-12.44.27:270][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.28-12.44.32:973][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.28-12.44.33:614][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.28-12.44.36:960][  0]LogConsoleResponse:Display: 
+[2015.02.28-12.44.38:738][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.28-12.44.42:327][  0]SourceControl: Info Source control is disabled
+[2015.02.28-12.44.42:369][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.28-12.44.42:369][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/Example_Map.umap'
+[2015.02.28-12.44.42:377][  0]Cmd: MAP CHECKDEP
+[2015.02.28-12.44.42:387][  0]MapCheck: New page: Untitled_0 - Feb 28, 2015, 2:44:42 PM
+[2015.02.28-12.44.42:503][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.426ms to complete.
+[2015.02.28-12.44.42:503][  0]LogFileHelpers: Loading map 'Example_Map' took 0.149
+[2015.02.28-12.44.43:860][  0]LogCollectionManager: Loaded 0 collections in 0.001319 seconds
+[2015.02.28-12.44.45:330][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.28-12.44.45:566][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.28-12.44.45:633][  0]LogLoad: Full Startup: 92.00 seconds (BP compile: 0.22 seconds)
+[2015.02.28-12.44.46:115][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.28-12.44.48:565][  0]LogRenderer:Warning: Reallocating scene render targets to support 1072x904.
+[2015.02.28-12.44.52:342][  2]LogAssetRegistry: Asset discovery search completed in 25.0831 seconds
+[2015.02.28-12.45.33:437][243]Cmd: MAP LOAD FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.28-12.45.33:437][243]LightingResults: New page: Lighting Build
+[2015.02.28-12.45.33:902][243]LoadErrors: New page: Loading map: House.umap
+[2015.02.28-12.45.33:923][243]MapCheck: New page: Map Check
+[2015.02.28-12.45.33:923][243]LightingResults: New page: Lighting Build
+[2015.02.28-12.45.33:929][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BE6A2D580
+[2015.02.28-12.45.34:066][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.28-12.45.34:066][243]LogAIModule: Creating AISystem for world House
+[2015.02.28-12.45.34:090][243]Cmd: MAP CHECKDEP
+[2015.02.28-12.45.34:090][243]MapCheck: New page: House - Feb 28, 2015, 2:45:34 PM
+[2015.02.28-12.45.34:183][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.584ms to complete.
+[2015.02.28-12.45.34:185][243]LogFileHelpers: Loading map 'House' took 0.749
+[2015.02.28-12.45.39:660][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo)
+[2015.02.28-12.45.40:640][754]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.45.42:771][901]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.28-12.45.44:952][120]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.28-12.45.46:866][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/WoodenPanel'
+[2015.02.28-12.45.56:008][210]LogEditorFactories: Performing atomic reimport of [C:/Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/FBXOBJ/Panel_lo.fbx]
+[2015.02.28-12.45.56:077][210]LogFbx: Loading FBX Scene from C:/Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/FBXOBJ/Panel_lo.fbx
+[2015.02.28-12.45.56:094][210]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.28-12.45.56:130][210]LogFbx: == Initial material list:
+[2015.02.28-12.45.56:130][210]LogFbx: 0: lambert1
+[2015.02.28-12.45.56:130][210]LogFbx: == After sorting:
+[2015.02.28-12.45.56:130][210]LogFbx: 0: lambert1
+[2015.02.28-12.45.56:130][210]LogFbx: == Mapping table:
+[2015.02.28-12.45.56:130][210]LogFbx:   sort 0 -> 0
+[2015.02.28-12.45.56:230][210]LogStaticMesh: Building static mesh Panel_lo...
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Rasterize: 679
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Find: 7
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Rasterize: 801
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Find: 5
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Rasterize: 877
+[2015.02.28-12.45.56:244][210]LogLayoutUV:Display:   Find: 5
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Rasterize: 899
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Find: 2
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Rasterize: 905
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Find: 6
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Rasterize: 911
+[2015.02.28-12.45.56:245][210]LogLayoutUV:Display:   Find: 5
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display:   Rasterize: 904
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display:   Find: 3
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display:   Rasterize: 912
+[2015.02.28-12.45.56:246][210]LogLayoutUV:Display:   Find: 4
+[2015.02.28-12.45.56:246][210]LogStaticMesh: Built static mesh [59.984436ms] /Game/Meshes/WoodenPanel/Panel_lo.Panel_lo
+[2015.02.28-12.45.56:397][210]LogEditorFactories: -- imported successfully
+[2015.02.28-12.46.05:495][ 72]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.02.28-12.46.07:903][310]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.28-12.46.09:811][501]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.02.28-12.46.11:370][649]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.47:324][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_o.tga)
+[2015.02.28-12.46.48:220][303]0.000025 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_o._polySurface252_o
+
+[2015.02.28-12.46.48:226][303]LogTexture:Display: Building textures: _polySurface252_o (AutoDXT)
+[2015.02.28-12.46.48:787][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_b.tga)
+[2015.02.28-12.46.49:143][303]0.000038 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_b._polySurface252_b
+
+[2015.02.28-12.46.49:157][303]LogTexture:Display: Building textures: _polySurface252_b (AutoDXT)
+[2015.02.28-12.46.49:642][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_d.tga)
+[2015.02.28-12.46.50:767][303]0.000039 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_d._polySurface252_d
+
+[2015.02.28-12.46.50:825][303]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.46.51:683][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_g.tga)
+[2015.02.28-12.46.51:725][303]0.000028 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+
+[2015.02.28-12.46.51:731][303]LogTexture:Display: Building textures: _polySurface252_g (AutoDXT)
+[2015.02.28-12.46.52:485][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_m.tga)
+[2015.02.28-12.46.52:526][303]0.000023 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_m._polySurface252_m
+
+[2015.02.28-12.46.52:603][303]LogTexture:Display: Building textures: _polySurface252_m (AutoDXT)
+[2015.02.28-12.46.52:947][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Christoffer\Documents\Maya\projects\Project_Explorer\scenes\WoodenPanel\Textures\WoodenPanel\previewer\_polySurface252_n.tga)
+[2015.02.28-12.46.52:991][303]0.000030 seconds to analyze Texture2D /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+
+[2015.02.28-12.46.53:029][303]LogTexture:Display: Building textures: _polySurface252_n (BC5)
+[2015.02.28-12.46.53:430][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.28-12.46.53:430][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.53:431][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.53:431][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.53:431][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.53:432][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.46.53:432][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.47.15:997][809]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.47.16:076][809]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.47.21:675][809]LogSavePackage: Save=29.798746ms
+[2015.02.28-12.47.21:675][809]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanel_odA1080FCA4437F949B2D334B0F919A4DE.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanel_od.uasset'
+[2015.02.28-12.47.22:289][809]LogSavePackage: Save=328.685455ms
+[2015.02.28-12.47.22:289][809]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMAT01377DB243591F205C5A0A9CDC06634A.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.47.38:693][428]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.47.38:693][428]LogMaterial:Warning: Failed to compile Material /Game/Textures/WoodenPanel/WoodenPanelMAT.WoodenPanelMAT for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.47.38:693][428]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.47.38:694][428]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.47.38:695][428]LogMaterial:Warning: Failed to compile Material /Game/Textures/WoodenPanel/WoodenPanelMAT.WoodenPanelMAT for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.47.38:695][428]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.47.40:146][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.28-12.47.40:277][428]LogSavePackage: Save=103.737686ms
+[2015.02.28-12.47.40:277][428]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/HouseD71F78FC4C476427D1C33DB031EF056A.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap'
+[2015.02.28-12.47.40:305][428]LogFileHelpers: Saving map 'House' took 0.253
+[2015.02.28-12.47.40:344][428]LogSavePackage: Save=1.458721ms
+[2015.02.28-12.47.40:344][428]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanel_normals62BAE5534D21A28B0B8CC28D2264A2DC.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanel_normals.uasset'
+[2015.02.28-12.47.40:604][428]LogSavePackage: Save=232.328247ms
+[2015.02.28-12.47.40:604][428]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMATC1E3730349F0BC761D9A18BABEEF18BB.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.47.43:608][668]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.47.43:701][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.02.28-12.47.43:850][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.02.28-12.47.43:850][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.28-12.47.43:850][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.02.28-12.47.43:850][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.28-12.47.43:897][668]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.47.43:974][668]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
+[2015.02.28-12.47.43:983][668]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.47.45:704][744]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2015.02.28-12.47.45:705][744]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 55 instructions
+[2015.02.28-12.47.45:705][744]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.47.45:705][744]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.02.28-12.47.51:607][147]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.47.53:022][235]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.47.53:022][235]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.02.28-12.47.53:022][235]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.47.53:022][235]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.02.28-12.48.02:855][911]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.02:912][911]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.48.03:960][972]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.48.03:960][972]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2015.02.28-12.48.03:960][972]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.48.03:960][972]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.02.28-12.48.08:629][272]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.08:629][272]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.08:629][272]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.08:743][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
+[2015.02.28-12.48.08:770][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.48.08:771][272]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.48.08:773][272]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.11:195][432]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.11:196][432]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.11:196][432]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.11:236][432]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.48.22:780][250]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.22:780][250]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.22:780][250]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.22:833][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.28-12.48.24:442][351]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.24:442][351]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.24:442][351]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.28:852][651]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.28:853][651]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.28:853][651]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.28:853][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.48.35:746][ 99]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.35:746][ 99]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.35:747][ 99]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.35:806][ 99]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.48.39:800][373]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.39:800][373]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.39:800][373]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.48.39:823][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.48.46:806][830]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.48.46:807][830]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.48.46:807][830]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.48.46:888][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
+[2015.02.28-12.48.46:942][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.48.46:944][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.48.46:946][830]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.48.50:122][ 42]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.49.03:537][445]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.03:537][445]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.03:537][445]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.49.03:675][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
+[2015.02.28-12.49.03:688][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.49.03:742][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.49.03:744][445]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/_polySurface252_g._polySurface252_g
+[2015.02.28-12.49.07:863][707]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.07:863][707]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.07:863][707]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.07:990][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling.
+[2015.02.28-12.49.08:042][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.49.08:089][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling.
+[2015.02.28-12.49.08:090][707]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.10:578][865]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.10:579][865]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.10:579][865]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.12:850][ 14]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.12:850][ 14]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.12:850][ 14]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.18:586][422]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.18:586][422]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.18:586][422]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.18:635][422]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.49.23:010][704]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.23:010][704]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.23:010][704]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.23:037][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.49.25:485][867]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.25:486][867]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.25:486][867]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.25:510][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.49.27:713][ 13]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.49.31:229][ 13]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.31:230][ 13]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.31:230][ 13]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.31:306][ 13]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.31:307][ 13]LogMaterial:Warning: Failed to compile Material /Game/Textures/WoodenPanel/WoodenPanelMAT.WoodenPanelMAT for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.31:307][ 13]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.31:321][ 13]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.31:321][ 13]LogMaterial:Warning: Failed to compile Material /Game/Textures/WoodenPanel/WoodenPanelMAT.WoodenPanelMAT for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.49.31:321][ 13]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Color, should be Normal for /Game/Textures/WoodenPanel/_polySurface252_n._polySurface252_n
+[2015.02.28-12.49.31:323][ 13]LogMaterial: 0.002160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.49.35:238][281]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.36:343][341]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.49.36:343][341]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.49.36:343][341]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.49.36:343][341]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.28-12.49.39:362][556]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.39:366][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.49.40:464][621]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.49.40:464][621]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.49.40:464][621]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.49.40:464][621]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.28-12.49.42:769][762]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.42:852][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.49.44:038][834]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.49.44:038][834]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.49.44:038][834]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.49.44:038][834]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.28-12.49.46:182][954]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.28-12.49.50:985][118]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.49.52:153][118]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.52:226][118]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.52:274][118]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.52:283][118]LogMaterial: 0.001880 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.49.55:830][339]LogMaterialEditor: Saving and Compiling material WoodenPanelMAT
+[2015.02.28-12.49.56:992][339]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.28-12.49.57:115][339]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.57:186][339]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.49.57:195][339]LogMaterial: 0.001868 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.49.58:979][339]LogSavePackage: Save=144.300430ms
+[2015.02.28-12.49.58:979][339]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMAT61B41CE74BE7B0B0BC567280B295D71E.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.49.58:987][339]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2015.02.28-12.49.58:987][339]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.02.28-12.49.58:987][339]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.49.58:987][339]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.50.13:125][624]Cmd: TRANSACTION UNDO
+[2015.02.28-12.50.13:125][624]LogEditorTransaction: Undo Move Actors
+[2015.02.28-12.50.13:133][624]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.13:524][642]Cmd: TRANSACTION UNDO
+[2015.02.28-12.50.13:524][642]LogEditorTransaction: Undo Move Actors
+[2015.02.28-12.50.13:547][642]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.14:261][697]Cmd: TRANSACTION UNDO
+[2015.02.28-12.50.14:261][697]LogEditorTransaction: Undo Move Actors
+[2015.02.28-12.50.14:269][697]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.18:901][119]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.19:732][196]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.37:458][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Floor)
+[2015.02.28-12.50.37:465][826]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.39:890][ 40]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo4)
+[2015.02.28-12.50.39:897][ 40]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.50.40:822][104]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.28-12.50.40:832][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.02.28-12.50.40:885][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.02.28-12.50.40:885][104]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.02.28-12.50.40:885][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.02.28-12.50.40:885][104]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.02.28-12.50.40:887][104]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.28-12.50.40:929][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.50.40:979][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.50.40:980][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.50.40:995][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.50.42:955][230]MaterialEditorStats: Info Base pass shader with static lighting: 84 instructions
+[2015.02.28-12.50.42:955][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.50.42:955][230]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.50.42:955][230]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.02.28-12.50.46:201][445]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.28-12.50.46:266][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.50.47:521][521]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.50.48:620][521]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.28-12.50.48:745][521]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.50.48:784][521]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.50.48:793][521]LogMaterial: 0.001872 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.50.49:483][563]LogMaterialEditor: Saving and Compiling material WoodenPanelMAT
+[2015.02.28-12.50.50:612][563]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.28-12.50.50:724][563]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.50.50:745][563]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.50.50:754][563]LogMaterial: 0.002010 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.50.53:773][563]LogSavePackage: Save=321.897644ms
+[2015.02.28-12.50.53:773][563]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMATBD81D47941528F59A10B84BB527D2436.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.50.53:780][563]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2015.02.28-12.50.53:780][563]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2015.02.28-12.50.53:780][563]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.50.53:780][563]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.50.59:391][ 31]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.51.00:092][ 96]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.51.06:493][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StudyRoom_Floor)
+[2015.02.28-12.51.06:500][712]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.51.11:785][177]MapCheck: New page: Map Check
+[2015.02.28-12.51.11:823][177]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.28-12.51.11:834][177]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.28-12.51.11:837][177]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.02.28-12.51.11:890][177]LightingResults: New page: Lighting Build - Feb 28, 2015, 2:51:11 PM
+[2015.02.28-12.51.28:683][177]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.28-12.51.28:683][177]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.28-12.51.28:683][177]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.28-12.51.28:683][177]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.28-12.51.28:683][177]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.28-12.51.29:154][177]LogEditorBuildUtils: Build time 0:00:17
+[2015.02.28-12.51.30:993][183]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WoodenPanelMAT, compiling.
+[2015.02.28-12.51.30:994][183]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WoodenPanelMAT, compiling.
+[2015.02.28-12.51.33:137][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009B851E1F80
+[2015.02.28-12.51.33:138][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BEFE862A0
+[2015.02.28-12.51.38:247][206]Job is a success!
+[2015.02.28-12.51.38:378][207]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.02.28-12.51.38:448][207]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.02.28-12.51.38:451][207]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.02.28-12.51.38:454][207]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.02.28-12.51.38:460][207]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.02.28-12.51.38:468][207]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.02.28-12.51.38:478][207]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.02.28-12.51.38:597][207]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.02.28-12.51.38:780][207]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.02.28-12.51.38:862][207]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.02.28-12.51.45:808][207]Lightmass on KUKRUNAR: 3.72 sec total, 375 ms importing, 3 ms setup, 720 ms photons, 2.53 sec processing, 0 ms extra exporting [23/23 mappings]. Threads: 10.0 sec total, 5.30 sec processing.
+[2015.02.28-12.51.45:832][207]LogStaticLightingSystem:Warning: Illumination: 33.9 sec (534 ms encoding lightmaps)
+[2015.02.28-12.51.45:832][207]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.02.28-12.51.45:832][207]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2015.02.28-12.51.46:703][208]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.28-12.51.46:703][208]MapCheck: New page: House - Feb 28, 2015, 2:51:46 PM
+[2015.02.28-12.51.46:902][208]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 198.821ms to complete.
+[2015.02.28-12.51.48:708][378]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.28-12.51.48:708][378]LogPlayLevel: [PIE] Compiling House before PIE...
+[2015.02.28-12.51.48:862][378]LogPlayLevel: PIE:  Blueprint regeneration took 153 ms (1 blueprints)
+[2015.02.28-12.51.48:862][378]PIE: New page: PIE session: House (Feb 28, 2015, 2:51:48 PM)
+[2015.02.28-12.51.48:936][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053761s)
+[2015.02.28-12.51.48:936][378]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2015.02.28-12.51.48:937][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/House.House to /Game/Maps/UEDPIE_0_House.House (0.074322s)
+[2015.02.28-12.51.49:406][378]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2015.02.28-12.51.49:410][378]LogWorld: Game class is 'MyGame_C'
+[2015.02.28-12.51.49:488][378]LogAIModule: Creating AISystem for world House
+[2015.02.28-12.51.49:490][378]LogWorld: Bringing World /Game/Maps/UEDPIE_0_House.House up for play (max tick rate 0) at 2015.02.28-13.51.49
+[2015.02.28-12.51.49:532][378]LogWorld: Bringing up level for play took: 0.043199
+[2015.02.28-12.51.49:656][378]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_House 1.481
+[2015.02.28-12.52.04:305][ 12]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.52.04:328][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BF4F4D080
+[2015.02.28-12.52.34:324][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Panel_lo2)
+[2015.02.28-12.52.34:332][ 70]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.28-12.52.47:147][387]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Christoffer/Documents/Maya/projects/Project_Explorer/scenes/WoodenPanel/Textures/WoodenPanel_normals.tga)
+[2015.02.28-12.52.49:281][387]0.000039 seconds to analyze Texture2D /Game/Textures/WoodenPanel/WoodenPanel_normals.WoodenPanel_normals
+
+[2015.02.28-12.52.49:288][387]LogTexture:Display: Building textures: WoodenPanel_normals (AutoDXT)
+[2015.02.28-12.52.50:278][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.28-12.52.50:279][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures/WoodenPanel'
+[2015.02.28-12.52.52:669][569]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.52.52:679][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.28-12.52.52:797][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.28-12.52.52:797][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.02.28-12.52.52:797][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.28-12.52.52:797][569]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.02.28-12.52.52:821][569]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.52.52:913][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.52.53:004][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.52.53:006][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.52.53:007][569]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.52.55:984][753]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.02.28-12.52.55:984][753]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.52.55:984][753]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.52.55:985][753]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.53.03:039][189]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.03:118][189]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.53.04:390][264]MaterialEditorStats: Info Base pass shader with static lighting: 88 instructions
+[2015.02.28-12.53.04:390][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2015.02.28-12.53.04:390][264]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.53.04:390][264]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.53.09:462][593]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.09:462][593]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.02.28-12.53.09:462][593]LogMaterial:Warning: 	(Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/WoodenPanel_normals.WoodenPanel_normals
+[2015.02.28-12.53.09:487][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.53.09:491][593]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameter2D) TextureSampleParameter> Sampler type is Normal, should be Color for /Game/Textures/WoodenPanel/WoodenPanel_normals.WoodenPanel_normals
+[2015.02.28-12.53.11:484][727]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.11:557][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.53.12:502][782]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.53.13:637][782]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.13:757][782]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.53.13:820][782]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.53.13:829][782]LogMaterial: 0.001958 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.53.14:332][813]LogMaterialEditor: Saving and Compiling material WoodenPanelMAT
+[2015.02.28-12.53.15:447][813]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.15:582][813]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.53.15:654][813]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.53.15:663][813]LogMaterial: 0.001887 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.53.18:392][813]LogSavePackage: Save=319.704742ms
+[2015.02.28-12.53.18:392][813]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMATCAF464464470FF04AF71DA97E29FC7D0.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.53.18:405][813]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2015.02.28-12.53.18:405][813]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 76 instructions
+[2015.02.28-12.53.18:406][813]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.53.18:406][813]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.53.57:648][371]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.53.57:698][371]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.53.59:782][499]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.54.00:944][499]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.01:054][499]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.01:106][499]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.01:115][499]LogMaterial: 0.001893 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.54.04:673][723]MaterialEditorStats: Info Base pass shader with static lighting: 112 instructions
+[2015.02.28-12.54.04:674][723]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2015.02.28-12.54.04:674][723]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.04:674][723]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.10:004][ 52]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.10:055][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.28-12.54.10:083][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.54.10:149][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling.
+[2015.02.28-12.54.10:151][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling.
+[2015.02.28-12.54.10:153][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.28-12.54.10:215][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.28-12.54.11:140][104]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.02.28-12.54.11:140][104]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.11:140][104]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.11:140][104]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.54.12:586][192]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.12:619][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.28-12.54.14:006][274]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.54.14:006][274]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.14:006][274]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.14:006][274]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.18:872][587]LogMaterialEditor: Applying material WoodenPanelMAT
+[2015.02.28-12.54.19:968][587]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.20:066][587]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.20:099][587]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.20:108][587]LogMaterial: 0.001900 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.54.24:223][839]MaterialEditorStats: Info Base pass shader with static lighting: 115 instructions
+[2015.02.28-12.54.24:223][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2015.02.28-12.54.24:223][839]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.24:223][839]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.02.28-12.54.26:344][970]LogMaterialEditor: Saving and Compiling material WoodenPanelMAT
+[2015.02.28-12.54.27:456][970]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.27:529][970]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.27:553][970]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.54.27:562][970]LogMaterial: 0.001924 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.54.29:747][970]LogSavePackage: Save=327.860687ms
+[2015.02.28-12.54.29:747][970]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMAT982A230848298BAD423921B7739C6990.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.54.34:316][284]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.35:753][362]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.54.35:753][362]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.35:753][362]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.35:753][362]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.47:141][148]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.48:436][226]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.54.48:436][226]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.48:436][226]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.48:436][226]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.49:272][279]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.50:349][315]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.54.50:349][315]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.50:349][315]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.50:349][315]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.55:025][586]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.54.56:394][664]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.54.56:394][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.54.56:394][664]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.54.56:394][664]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.54.58:653][801]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.00:024][880]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.55.00:024][880]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.55.00:024][880]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.00:024][880]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.00:419][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.02:403][ 21]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.02:434][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.03:857][103]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.55.03:858][103]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.55.03:858][103]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.03:858][103]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.06:893][291]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.06:959][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.08:269][367]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.55.08:269][367]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.55.08:269][367]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.08:269][367]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.10:566][502]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.10:599][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.12:197][596]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.55.12:197][596]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.55.12:197][596]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.12:197][596]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.20:243][ 71]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.21:440][137]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2015.02.28-12.55.21:440][137]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.55.21:440][137]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.21:440][137]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.55.23:267][249]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.23:300][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.55.24:383][307]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2015.02.28-12.55.24:383][307]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.55.24:383][307]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.24:383][307]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.55.25:304][356]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.25:332][356]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.26:467][417]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2015.02.28-12.55.26:468][417]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.55.26:468][417]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.26:468][417]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.55.34:474][908]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.35:872][986]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.55.35:872][986]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.55.35:872][986]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.35:872][986]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.42:872][381]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.42:957][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.44:240][454]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.55.44:240][454]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.55.44:240][454]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.44:240][454]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.49:440][765]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.49:498][765]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.50:860][844]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.55.50:860][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.55.50:860][844]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.50:860][844]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.55.55:774][137]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.55.55:858][137]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.55.57:077][208]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.55.57:078][208]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.55.57:078][208]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.55.57:078][208]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.56.01:934][497]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.02:018][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.56.03:363][575]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.56.03:363][575]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.56.03:363][575]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.56.03:363][575]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.56.04:380][634]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.04:460][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling.
+[2015.02.28-12.56.05:812][711]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.02.28-12.56.05:812][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.02.28-12.56.05:812][711]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.56.05:812][711]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.56.05:980][719]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.06:591][750]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.07:809][815]MaterialEditorStats: Info Base pass shader with static lighting: 86 instructions
+[2015.02.28-12.56.07:809][815]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 56 instructions
+[2015.02.28-12.56.07:809][815]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.56.07:809][815]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.02.28-12.56.09:458][923]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.09:502][923]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_5, compiling.
+[2015.02.28-12.56.10:840][999]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.02.28-12.56.10:840][999]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 62 instructions
+[2015.02.28-12.56.10:840][999]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.02.28-12.56.10:840][999]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.02.28-12.56.14:654][ 40]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.28-12.56.14:778][ 40]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.56.14:807][ 40]LogMaterial: Missing cached shader map for material WoodenPanelMAT, compiling.
+[2015.02.28-12.56.14:816][ 40]LogMaterial: 0.001897 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.28-12.56.29:658][191]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.38:375][782]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.39:381][782]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.40:389][782]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.45:482][ 87]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.47:832][194]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.50:029][286]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.56.56:084][455]LogSavePackage: Save=2747.048340ms
+[2015.02.28-12.56.56:084][455]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_dFC8599984E02EAE5ED84508678F1C646.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_d.uasset'
+[2015.02.28-12.57.05:870][148]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.57.07:790][237]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.57.09:459][299]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.57.20:085][ 12]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.57.22:392][112]LogTexture:Display: Building textures: _polySurface252_d (AutoDXT)
+[2015.02.28-12.57.33:735][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BE2651BC0
+[2015.02.28-12.57.36:660][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/House" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.28-12.57.36:800][ 22]LogSavePackage: Save=106.259811ms
+[2015.02.28-12.57.36:800][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/House8B29006D43822D86D9B3D386058B2885.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Maps/House.umap'
+[2015.02.28-12.57.36:831][ 22]LogFileHelpers: Saving map 'House' took 0.349
+[2015.02.28-12.57.36:843][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/WoodenPanel/Panel_lo" FILE="../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Meshes/WoodenPanel/Panel_lo.uasset" SILENT=true
+[2015.02.28-12.57.37:122][ 22]LogSavePackage: Save=262.869537ms
+[2015.02.28-12.57.37:122][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/Panel_lo5870483A45B44C3225A9FEA63C2676AD.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Meshes/WoodenPanel/Panel_lo.uasset'
+[2015.02.28-12.57.37:554][ 22]LogSavePackage: Save=418.300446ms
+[2015.02.28-12.57.37:554][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_bDDBA8EC142E219DD0D82FF9243EA7376.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_b.uasset'
+[2015.02.28-12.57.37:627][ 22]LogSavePackage: Save=46.222935ms
+[2015.02.28-12.57.37:627][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_d28B8945B4308AC21477BC6A21122AA46.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_d.uasset'
+[2015.02.28-12.57.39:685][ 22]LogSavePackage: Save=2044.023804ms
+[2015.02.28-12.57.39:685][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_g9D4350C24DD5CFB590F875BC309E5388.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_g.uasset'
+[2015.02.28-12.57.39:923][ 22]LogSavePackage: Save=224.059677ms
+[2015.02.28-12.57.39:923][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_m56AE6C534EF0C9E67C258DAE56A37777.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_m.uasset'
+[2015.02.28-12.57.44:473][ 22]LogSavePackage: Save=4535.197266ms
+[2015.02.28-12.57.44:473][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_nAEACA094433E4D9D085D7E9BAE3927D7.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_n.uasset'
+[2015.02.28-12.57.45:049][ 22]LogSavePackage: Save=560.719238ms
+[2015.02.28-12.57.45:049][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/_polySurface252_o9EFFBF22427B8CA59E102F802D2123AF.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/_polySurface252_o.uasset'
+[2015.02.28-12.57.46:333][ 22]LogSavePackage: Save=1266.672607ms
+[2015.02.28-12.57.46:333][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanel_normalsE1D68B4A4021CFBEBA3AA1A7F2665E64.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanel_normals.uasset'
+[2015.02.28-12.57.46:666][ 22]LogSavePackage: Save=303.119507ms
+[2015.02.28-12.57.46:666][ 22]LogSavePackage: Moving '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Saved/WoodenPanelMATCCFF385D4C27557ADD6FC8B1D185C952.tmp' to '../../../../../../Users/Christoffer/Documents/ProjectExplorer/ProjectExplorer/Content/Textures/WoodenPanel/WoodenPanelMAT.uasset'
+[2015.02.28-12.57.47:345][ 23]Cmd: QUIT_EDITOR
+[2015.02.28-12.57.47:958][ 23]LogExit: Preparing to exit.
+[2015.02.28-12.57.48:725][ 23]LogExit: Editor shut down
+[2015.02.28-12.57.48:725][ 23]LogExit: Transaction tracking system shut down
+[2015.02.28-12.57.48:726][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BEFF73D80
+[2015.02.28-12.57.48:726][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BE270D260
+[2015.02.28-12.57.48:726][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009BF35211C0
+[2015.02.28-12.57.48:748][ 23]LogExit: Object subsystem successfully closed.
+[2015.02.28-12.57.48:893][ 23]LogModuleManager: Shutting down and abandoning module TextureEditor (174)
+[2015.02.28-12.57.48:893][ 23]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
+[2015.02.28-12.57.48:893][ 23]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module SuperSearch (169)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module SceneOutliner (168)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module EditorWidgets (167)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module CollectionManager (166)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.28-12.57.48:947][ 23]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.28-12.57.48:948][ 23]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.28-12.57.49:017][ 23]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.28-12.57.49:018][ 23]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.28-12.57.49:018][ 23]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.28-12.57.49:018][ 23]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.28-12.57.49:018][ 23]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.28-12.57.49:018][ 23]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.28-12.57.49:107][ 23]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.28-12.57.49:108][ 23]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.28-12.57.49:108][ 23]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.28-12.57.49:108][ 23]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module ProjectExplorer (77)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2015.02.28-12.57.49:109][ 23]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2015.02.28-12.57.49:210][ 23]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2015.02.28-12.57.49:210][ 23]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.28-12.57.49:211][ 23]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.28-12.57.49:212][ 23]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.28-12.57.49:215][ 23]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.28-12.57.49:315][ 23]LogDerivedDataCache: Shutdown
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.28-12.57.49:315][ 23]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.28-12.57.49:317][ 23]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.28-12.57.49:318][ 23]LogExit: Exiting.
+[2015.02.28-12.57.49:322][ 23]Log file closed, 02/28/15 13:57:49
